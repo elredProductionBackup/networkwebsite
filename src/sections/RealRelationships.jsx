@@ -6,7 +6,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Check } from "lucide-react";
 import FadeIn from "@/components/FadeIn";
 import PhoneMockup from "@/components/PhoneMockup";
-import fypScreen from "@/images/screens/attach-fyp.jpeg";
+import fypScreen from "@/images/screens/attach-hero.jpeg";
 import communityScreen from "@/images/screens/attach-community.jpeg";
 import profileScreen from "@/images/screens/attach-profile.jpeg";
 import collabScreen from "@/images/screens/attach-collab.jpeg";
