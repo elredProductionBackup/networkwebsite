@@ -5,7 +5,7 @@ export const TERMS_AND_CONDITIONS = {
     { type: "heading", text: `1. PRELIMINARY` },
     {
       type: "paragraph",
-      text: `1.1  These terms and conditions ("Terms of Use") along with our Privacy Policy (available here), Community Guidelines (available here), and other policies ("Platform & Network Policies") available on Privacy policy (our "Platform & Network") form a legally binding agreement between You ("User" or "Member" or "You" or "Your") and Rex Tone Digital Pvt Ltd. ("The Network" or "Company" or "Us" or "We" or "Our"). They apply to Your use of the Platform & Network and for availing any Services from Us.`,
+      text: `1.1  These terms and conditions ("Terms of Use") along with our Privacy Policy ([available here](/privacy-policy)), Community Guidelines ([available here](/community-guidelines)), and other policies ("Platform & Network Policies") available on Privacy policy (our "Platform & Network") form a legally binding agreement between You ("User" or "Member" or "You" or "Your") and Rex Tone Digital Pvt Ltd. ("theNetwork" or "Company" or "Us" or "We" or "Our"). They apply to Your use of the Platform & Network and for availing any Services from Us.`,
     },
     {
       type: "paragraph",
@@ -34,19 +34,19 @@ export const TERMS_AND_CONDITIONS = {
     },
     {
       type: "paragraph",
-      text: `2.2  The Network may introduce other functionalities and features on its Platform & The Network, from time to time, which shall be deemed to be covered under these Terms of Use, in addition to any specific terms provided separately.`,
+      text: `2.2  theNetwork may introduce other functionalities and features on its Platform & theNetwork, from time to time, which shall be deemed to be covered under these Terms of Use, in addition to any specific terms provided separately.`,
     },
     {
       type: "paragraph",
-      text: `2.3  Our Services give Users or members the ability to send messages and share information with other Users or members in connection with any proposed transaction that such Users or members want to engage in. We may, at our sole discretion, provide additional support services to the Users or members such as payment processing, logistics and delivery support to help them transact seamlessly on the Platform & The Network. It is hereby clarified that The Network merely introduces the Users or members to such Service Providers on the Platform & Network and is not actively involved in any aspect of the payment or delivery process that the User or members may be engaging with.`,
+      text: `2.3  Our Services give Users or members the ability to send messages and share information with other Users or members in connection with any proposed transaction that such Users or members want to engage in. We may, at our sole discretion, provide additional support services to the Users or members such as payment processing, logistics and delivery support to help them transact seamlessly on the Platform & theNetwork. It is hereby clarified that theNetwork merely introduces the Users or members to such Service Providers on the Platform & Network and is not actively involved in any aspect of the payment or delivery process that the User or members may be engaging with.`,
     },
     {
       type: "paragraph",
-      text: `2.4  Users or members remain solely liable and responsible for the effective delivery of goods and services to other transacting Users or members on the Platform & Network, for aspects including delivery timelines for goods and services, terms of payment, warranties and support services related to the goods and services. At no point would The Network hold any right, title, or interest over any such good or service for which Users or members are transacting on the Platform & Network. Users & members on the Platform & Network are not agents, contractors, or partners of The Network or any of Our affiliates, licensors, associates, or group companies. Users or members do not have the authority to bind or represent The Network vis-à-vis the transactions undertaken by them on the Platform & Network.`,
+      text: `2.4  Users or members remain solely liable and responsible for the effective delivery of goods and services to other transacting Users or members on the Platform & Network, for aspects including delivery timelines for goods and services, terms of payment, warranties and support services related to the goods and services. At no point would theNetwork hold any right, title, or interest over any such good or service for which Users or members are transacting on the Platform & Network. Users & members on the Platform & Network are not agents, contractors, or partners of theNetwork or any of Our affiliates, licensors, associates, or group companies. Users or members do not have the authority to bind or represent theNetwork vis-à-vis the transactions undertaken by them on the Platform & Network.`,
     },
     {
       type: "paragraph",
-      text: `2.5  The Platform & Network merely intends to provide a medium for Users or members to reach, interact, collaborate and transact with a wider user or members base. The Network does not control and would not be responsible for any professional service listings/information, messages sent between Users or members, e-mails sent from outside The Network's domain, or any other means of electronic communication, whether undertaken through the Platform & Network or via other websites.`,
+      text: `2.5  The Platform & Network merely intends to provide a medium for Users or members to reach, interact, collaborate and transact with a wider user or members base. theNetwork does not control and would not be responsible for any professional service listings/information, messages sent between Users or members, e-mails sent from outside theNetwork's domain, or any other means of electronic communication, whether undertaken through the Platform & Network or via other websites.`,
     },
     { type: "heading", text: `3. ACCESS TO THE PLATFORM & NETWORK` },
     {
@@ -68,7 +68,7 @@ export const TERMS_AND_CONDITIONS = {
     { type: "heading", text: `4. REGISTRATION PROCESS` },
     {
       type: "paragraph",
-      text: `4.1  You can register with Us by agreeing to these Terms of Use and by providing Us with accurate and complete information that We seek at the time of registration, which may, at our sole discretion, include one or all of the following particulars – (a) Your mobile number; (b) first name; (c) last name; and (d) email-ID. You are also asked to choose a username for your The Network account, after which a one-time password ("OTP") is sent to confirm your e-mail ID.`,
+      text: `4.1  You can register with Us by agreeing to these Terms of Use and by providing Us with accurate and complete information that We seek at the time of registration, which may, at our sole discretion, include one or all of the following particulars – (a) Your mobile number; (b) first name; (c) last name; and (d) email-ID. You are also asked to choose a username for your theNetwork account, after which a one-time password ("OTP") is sent to confirm your e-mail ID.`,
     },
     {
       type: "paragraph",
@@ -92,7 +92,7 @@ export const TERMS_AND_CONDITIONS = {
     },
     {
       type: "paragraph",
-      text: `4.7  We shall provide You access to the Platform & Network, information provided by other Users or members, and standard support for the Services, which would be limited to The Network's role as an intermediary involved in the facilitation of Services to its Users or members on a principal-to-principal basis.`,
+      text: `4.7  We shall provide You access to the Platform & Network, information provided by other Users or members, and standard support for the Services, which would be limited to theNetwork's role as an intermediary involved in the facilitation of Services to its Users or members on a principal-to-principal basis.`,
     },
     {
       type: "paragraph",
@@ -129,23 +129,23 @@ export const TERMS_AND_CONDITIONS = {
     },
     {
       type: "paragraph",
-      text: `(B) The responsibility to comply with the relevant legal compliances including all aspects of a transaction such as purchases, returns, fraudulent transactions, required legal disclosures, and other requirements would be met and complied with solely by You in Your capacity as a seller of such goods and service. You also acknowledge Your sole responsibility for determining, collecting, and remitting all applicable taxes, duties, fees, surcharges, and other additional charges that may accrue from the sale of any good on The Network.`,
+      text: `(B) The responsibility to comply with the relevant legal compliances including all aspects of a transaction such as purchases, returns, fraudulent transactions, required legal disclosures, and other requirements would be met and complied with solely by You in Your capacity as a seller of such goods and service. You also acknowledge Your sole responsibility for determining, collecting, and remitting all applicable taxes, duties, fees, surcharges, and other additional charges that may accrue from the sale of any good on theNetwork.`,
     },
     {
       type: "paragraph",
-      text: `(C) You warrant that (a) the goods and services sold by You on The Network will remain true to their description and would not violate any of the Applicable Laws that regulate the sale and purchase transactions in the concerned goods/services, and (b) You will be responsible for any breach of the Platform & Network Policies or other Applicable Laws by Your affiliates, agents or sub-contractors.`,
+      text: `(C) You warrant that (a) the goods and services sold by You on theNetwork will remain true to their description and would not violate any of the Applicable Laws that regulate the sale and purchase transactions in the concerned goods/services, and (b) You will be responsible for any breach of the Platform & Network Policies or other Applicable Laws by Your affiliates, agents or sub-contractors.`,
     },
     {
       type: "paragraph",
-      text: `(D) You agree to undertake all reasonable precautions in the handling of goods for the purpose of their timely delivery and/or returns, and also affirm to ensure that Your affiliates, agents or sub-contractors also employ similar precautionary measures for the timely fulfilment of all orders facilitated via The Network.`,
+      text: `(D) You agree to undertake all reasonable precautions in the handling of goods for the purpose of their timely delivery and/or returns, and also affirm to ensure that Your affiliates, agents or sub-contractors also employ similar precautionary measures for the timely fulfilment of all orders facilitated via theNetwork.`,
     },
     {
       type: "paragraph",
-      text: `(E) You hereby acknowledge that while facilitating the Services under these Terms of Use, You may get access to certain end-customer information and documents that may also qualify as personal data of the concerned User(s) or members. You hereby undertake to not only refrain from tampering, altering or manipulating the information contained in such documents in any form, but also ensure that the details provided in such documents are complete, up-to-date and reflect the buyer's true and accurate information, if such information is needed to finalize the transaction undertaken on The Network.`,
+      text: `(E) You hereby acknowledge that while facilitating the Services under these Terms of Use, You may get access to certain end-customer information and documents that may also qualify as personal data of the concerned User(s) or members. You hereby undertake to not only refrain from tampering, altering or manipulating the information contained in such documents in any form, but also ensure that the details provided in such documents are complete, up-to-date and reflect the buyer's true and accurate information, if such information is needed to finalize the transaction undertaken on theNetwork.`,
     },
     {
       type: "paragraph",
-      text: `(F) You undertake to ensure compliance with all the Applicable Laws that prescribe specific obligations concerning the sale of some specified goods. For instance, You must (a) not sell cigarettes and tobacco goods on The Network to minors, (b) sell medicines only if You have the requisite license under the Drugs and Cosmetics Act, 1940 and if You comply with the ancillary obligations levied on licensees under the Rules framed thereunder, (c) not sell surgical dressings, sutures and other medical devices in the absence of a registration certificate procured from the designated state licensing authority, (d) refrain from selling beauty and wellness goods of Indian-origin unless they have been manufactured by a licensed manufacturer and packaged as per the Cosmetic Rules, 2020, and (e) not sell/offer to sell goods such as antiques, art treasures, firecrackers and related explosives, food products or agricultural produce in violation of Applicable Laws, etc.`,
+      text: `(F) You undertake to ensure compliance with all the Applicable Laws that prescribe specific obligations concerning the sale of some specified goods. For instance, You must (a) not sell cigarettes and tobacco goods on theNetwork to minors, (b) sell medicines only if You have the requisite license under the Drugs and Cosmetics Act, 1940 and if You comply with the ancillary obligations levied on licensees under the Rules framed thereunder, (c) not sell surgical dressings, sutures and other medical devices in the absence of a registration certificate procured from the designated state licensing authority, (d) refrain from selling beauty and wellness goods of Indian-origin unless they have been manufactured by a licensed manufacturer and packaged as per the Cosmetic Rules, 2020, and (e) not sell/offer to sell goods such as antiques, art treasures, firecrackers and related explosives, food products or agricultural produce in violation of Applicable Laws, etc.`,
     },
     {
       type: "paragraph",
@@ -153,7 +153,7 @@ export const TERMS_AND_CONDITIONS = {
     },
     {
       type: "paragraph",
-      text: `(H) You shall ensure that (a) the goods sought to be sold by You on the Platform & Network do not infringe upon the intellectual property, trade secret, or any other proprietary or publicity rights of third parties, (b) the 'Leads'/Offers for the goods do not exaggerate the latter's attributes to mislead the consumers, and (c) the 'Leads'/Offers remain true to the actual nature, appearance, quality, and condition of the good(s) sought to be sold via The Network.`,
+      text: `(H) You shall ensure that (a) the goods sought to be sold by You on the Platform & Network do not infringe upon the intellectual property, trade secret, or any other proprietary or publicity rights of third parties, (b) the 'Leads'/Offers for the goods do not exaggerate the latter's attributes to mislead the consumers, and (c) the 'Leads'/Offers remain true to the actual nature, appearance, quality, and condition of the good(s) sought to be sold via theNetwork.`,
     },
     {
       type: "paragraph",
@@ -161,7 +161,7 @@ export const TERMS_AND_CONDITIONS = {
     },
     {
       type: "paragraph",
-      text: `(J) You agree and acknowledge that The Network is merely a technology Platform & Network helping You connect with a wider user or members base and is not a party to the transactions facilitated via the Platform & Network as a buyer or a seller. Accordingly, The Network will not be responsible either to You or any other transacting party with respect to any default, deficiency, delay, fraudulent, or misrepresentative act that is committed by You or Your transacting party with respect to any transaction on the Platform & Network.`,
+      text: `(J) You agree and acknowledge that theNetwork is merely a technology Platform & Network helping You connect with a wider user or members base and is not a party to the transactions facilitated via the Platform & Network as a buyer or a seller. Accordingly, theNetwork will not be responsible either to You or any other transacting party with respect to any default, deficiency, delay, fraudulent, or misrepresentative act that is committed by You or Your transacting party with respect to any transaction on the Platform & Network.`,
     },
     {
       type: "paragraph",
@@ -173,11 +173,11 @@ export const TERMS_AND_CONDITIONS = {
     },
     {
       type: "paragraph",
-      text: `(A) Users or members intending to offer professional services on The Network must undertake to comply with the Applicable Laws that prescribe a code of conduct and other due diligence obligations on the professional service provider, that may include restrictions/prohibitions on: (a) sub-commissioning their work, (b) soliciting and advertising their professional services or clients, (c) accepting gifts and other inducements, (d) accepting a fee based on the percentage of profits, (e) engaging in part-time work without the prior approval from the relevant authorities. Additionally, Users or members are prohibited from misrepresenting their skills, services or professional achievements to induce or procure prospective clients and offering telemedicine services via text, video, audio or any other functionalities offered on the Platform & Network, etc.`,
+      text: `(A) Users or members intending to offer professional services on theNetwork must undertake to comply with the Applicable Laws that prescribe a code of conduct and other due diligence obligations on the professional service provider, that may include restrictions/prohibitions on: (a) sub-commissioning their work, (b) soliciting and advertising their professional services or clients, (c) accepting gifts and other inducements, (d) accepting a fee based on the percentage of profits, (e) engaging in part-time work without the prior approval from the relevant authorities. Additionally, Users or members are prohibited from misrepresenting their skills, services or professional achievements to induce or procure prospective clients and offering telemedicine services via text, video, audio or any other functionalities offered on the Platform & Network, etc.`,
     },
     {
       type: "paragraph",
-      text: `(B) You agree and acknowledge that The Network is merely a technology Platform & Network helping You connect with a wider user or members base and is not a party to the service transactions facilitated via the Platform & Network as a buyer of a seller. Accordingly, The Network will not be responsible either to You or any other transacting party with respect to any default, deficiency, delay, fraudulent, or misrepresentative act that is committed by You or Your transacting party with respect to any professional service transaction undertaken via the Platform & Network.`,
+      text: `(B) You agree and acknowledge that theNetwork is merely a technology Platform & Network helping You connect with a wider user or members base and is not a party to the service transactions facilitated via the Platform & Network as a buyer of a seller. Accordingly, theNetwork will not be responsible either to You or any other transacting party with respect to any default, deficiency, delay, fraudulent, or misrepresentative act that is committed by You or Your transacting party with respect to any professional service transaction undertaken via the Platform & Network.`,
     },
     {
       type: "paragraph",
@@ -221,11 +221,11 @@ export const TERMS_AND_CONDITIONS = {
     },
     {
       type: "paragraph",
-      text: `8.2  Your relationship with The Network is on a principal-to-principal basis and You hereby acknowledge vide the acceptance of the Platform & Network Policies that We do not have control over the goods and services listed by Users or members on the Platform & Network. Further, You specifically authorise the relevant Service Providers to process, facilitate, and remit payments, and the Platform & Network is not to be construed as a banking or financial service, since it merely facilitates automated online electronic payment.`,
+      text: `8.2  Your relationship with theNetwork is on a principal-to-principal basis and You hereby acknowledge vide the acceptance of the Platform & Network Policies that We do not have control over the goods and services listed by Users or members on the Platform & Network. Further, You specifically authorise the relevant Service Providers to process, facilitate, and remit payments, and the Platform & Network is not to be construed as a banking or financial service, since it merely facilitates automated online electronic payment.`,
     },
     {
       type: "paragraph",
-      text: `8.3  We may, at our sole discretion, charge a certain platform & Network fee from the Users or members for availing the Services on the Platform & Network. Such fee shall solely be for the utilisation of Our technology services on the Platform & Network by a User or members. The User or member acknowledges and agrees that payment of a platform & Network fee to The Network does not, in any way, suggest that The Network is providing any good or service on the Platform & Network to the Users or member. We shall not be liable for defaults, delays, or deficiency by the Service Providers assisting the Users or members  to make payments to one another.`,
+      text: `8.3  We may, at our sole discretion, charge a certain platform & Network fee from the Users or members for availing the Services on the Platform & Network. Such fee shall solely be for the utilisation of Our technology services on the Platform & Network by a User or members. The User or member acknowledges and agrees that payment of a platform & Network fee to theNetwork does not, in any way, suggest that theNetwork is providing any good or service on the Platform & Network to the Users or member. We shall not be liable for defaults, delays, or deficiency by the Service Providers assisting the Users or members  to make payments to one another.`,
     },
     { type: "heading", text: `9. GENERAL USER OR MEMBER OBLIGATIONS` },
     {
@@ -285,11 +285,11 @@ export const TERMS_AND_CONDITIONS = {
     { type: "heading", text: `10. INTELLECTUAL PROPERTY` },
     {
       type: "paragraph",
-      text: `10.1  The Platform & Network includes a combination of content created by the Company, its service providers, affiliates, licensors, associates, group companies, and/or You. The intellectual property rights ("Intellectual Property Rights") in all software underlying our Services and all materials published by Us on the Platform & Network, including but not limited to software, advertisements, written content, photographs, graphics, images, illustrations, logos, audio or video clippings, and marks including the wordmark "The Network" ("The Network Content"), whether registered or unregistered, are owned by the Company, its service providers, affiliates, licensors, associates, and group companies.`,
+      text: `10.1  The Platform & Network includes a combination of content created by the Company, its service providers, affiliates, licensors, associates, group companies, and/or You. The intellectual property rights ("Intellectual Property Rights") in all software underlying our Services and all materials published by Us on the Platform & Network, including but not limited to software, advertisements, written content, photographs, graphics, images, illustrations, logos, audio or video clippings, and marks including the wordmark "theNetwork" ("theNetwork Content"), whether registered or unregistered, are owned by the Company, its service providers, affiliates, licensors, associates, and group companies.`,
     },
     {
       type: "paragraph",
-      text: `10.2  You shall not modify, publish, transmit, participate in the transfer or sale of, reproduce, create derivative works of, distribute, publicly perform, publicly display, or in any way exploit the The Network Content on the Platform & Network either in whole or in part without Our express written license. However, You may request permission to use any of our Intellectual Property Rights by writing to feedback@rextonedigital.com`,
+      text: `10.2  You shall not modify, publish, transmit, participate in the transfer or sale of, reproduce, create derivative works of, distribute, publicly perform, publicly display, or in any way exploit the theNetwork Content on the Platform & Network either in whole or in part without Our express written license. However, You may request permission to use any of our Intellectual Property Rights by writing to feedback@rextonedigital.com`,
     },
     {
       type: "paragraph",
@@ -301,28 +301,28 @@ export const TERMS_AND_CONDITIONS = {
     },
     {
       type: "paragraph",
-      text: `10.5  You may terminate this license by either removing the specific User Content from the Platform & Network or by closing Your The Network account, except to the extent of Your sharing it with other Users or members and non-users or non members on the Platform & Network whilst making use of the Services offered by Us. We would not be liable for any claims of infringement if the third parties with which the respective User Content was shared subsequently copy, store, or re-share it on the Platform & Network.`,
+      text: `10.5  You may terminate this license by either removing the specific User Content from the Platform & Network or by closing Your theNetwork account, except to the extent of Your sharing it with other Users or members and non-users or non members on the Platform & Network whilst making use of the Services offered by Us. We would not be liable for any claims of infringement if the third parties with which the respective User Content was shared subsequently copy, store, or re-share it on the Platform & Network.`,
     },
     {
       type: "paragraph",
-      text: `10.6  We do not monitor and review User Content posted on the Platform & Network, except as part of our limited due diligence obligations as an intermediary. Accordingly, while You may encounter User Content on the Platform & Network that is inaccurate, illegal, offensive, harmful or violative of the Applicable Laws, We would not be responsible for such deficiencies in the User Content. At any time, if it comes to Our notice that any User Content on Our Platform & Network is inaccurate, illegal, offensive, harmful, violative, or infringes the intellectual property rights of a third party, we may take down such User Content in accordance with Applicable Laws. Despite Our steadfast compliance with the obligations imposed on Us under the Applicable Laws, We may not always prevent such misuse of Our Services, and You hereby affirm that We would not be held responsible for any such misuse or any other deficiency vis-à-vis any User Content hosted on The Network.`,
+      text: `10.6  We do not monitor and review User Content posted on the Platform & Network, except as part of our limited due diligence obligations as an intermediary. Accordingly, while You may encounter User Content on the Platform & Network that is inaccurate, illegal, offensive, harmful or violative of the Applicable Laws, We would not be responsible for such deficiencies in the User Content. At any time, if it comes to Our notice that any User Content on Our Platform & Network is inaccurate, illegal, offensive, harmful, violative, or infringes the intellectual property rights of a third party, we may take down such User Content in accordance with Applicable Laws. Despite Our steadfast compliance with the obligations imposed on Us under the Applicable Laws, We may not always prevent such misuse of Our Services, and You hereby affirm that We would not be held responsible for any such misuse or any other deficiency vis-à-vis any User Content hosted on theNetwork.`,
     },
     {
       type: "paragraph",
-      text: `10.7  If any User Content includes personal data, its processing by Us would be subject to Our Privacy Policy. We will procure your specific, informed, free, and affirmative consent before sharing Your User Content with third parties outside the Platform & Network. However, We are not obligated to publish any User Content, and also retain the right to remove any User Content that has been uploaded or shared on the Platform & Network in violation of any of the Applicable Laws or Platform & Network Policies, without providing any notice to You. Your engagement with User Content posted by others on the Platform & Network, whilst availing The Network's Services or otherwise, would be at Your own risk.`,
+      text: `10.7  If any User Content includes personal data, its processing by Us would be subject to Our Privacy Policy. We will procure your specific, informed, free, and affirmative consent before sharing Your User Content with third parties outside the Platform & Network. However, We are not obligated to publish any User Content, and also retain the right to remove any User Content that has been uploaded or shared on the Platform & Network in violation of any of the Applicable Laws or Platform & Network Policies, without providing any notice to You. Your engagement with User Content posted by others on the Platform & Network, whilst availing theNetwork's Services or otherwise, would be at Your own risk.`,
     },
     {
       type: "paragraph",
-      text: `10.8  User Content may be accessible by other non-users on the Platform & Network as well, insofar as the limited functionality of  viewing Profiles of the users or members. In such instances, We will honour Your choices in terms of who is able to view, access, or interact with Your User Content, subject to Us having incorporated the requisite features on the Platform & Network to address these requests from You. Incidental matters concerning the visibility of Your The Network account and User Content to non-users and non members and other platforms would also be addressed by Us basis the features incorporated in Our Platform's UI/UX.`,
+      text: `10.8  User Content may be accessible by other non-users on the Platform & Network as well, insofar as the limited functionality of  viewing Profiles of the users or members. In such instances, We will honour Your choices in terms of who is able to view, access, or interact with Your User Content, subject to Us having incorporated the requisite features on the Platform & Network to address these requests from You. Incidental matters concerning the visibility of Your theNetwork account and User Content to non-users and non members and other platforms would also be addressed by Us basis the features incorporated in Our Platform's UI/UX.`,
     },
     { type: "heading", text: `11. DISCLAIMERS` },
     {
       type: "paragraph",
-      text: `11.1  General: Our Platform & Network and Services are provided on an "as is" and "as available" basis without any warranty to You, including but not limited to merchantability or fitness for a particular purpose. We do not warrant that the Services will be error-free or risk-free and we do not assume responsibility for the accuracy of any information on the Platform & Network. In addition, The Network would not be responsible for the offering, performance, or procurement of services offered by Users or members on the Platform & Network, and no Content posted on the Platform & Network is to be treated as an endorsement of any such service. Users or members offering such services warrant that they would ensure compliance with the Applicable Laws and provide their services in accordance with the Platform & Network Policies.`,
+      text: `11.1  General: Our Platform & Network and Services are provided on an "as is" and "as available" basis without any warranty to You, including but not limited to merchantability or fitness for a particular purpose. We do not warrant that the Services will be error-free or risk-free and we do not assume responsibility for the accuracy of any information on the Platform & Network. In addition, theNetwork would not be responsible for the offering, performance, or procurement of services offered by Users or members on the Platform & Network, and no Content posted on the Platform & Network is to be treated as an endorsement of any such service. Users or members offering such services warrant that they would ensure compliance with the Applicable Laws and provide their services in accordance with the Platform & Network Policies.`,
     },
     {
       type: "paragraph",
-      text: `11.2  Liability for lost business opportunity, spurious goods et al: To the fullest extent permitted by law, The Network along with its affiliates, partners, licensors, associates, and group companies disclaim all liability concerning lost profits or lost business opportunities. Further, owing to Our role as an intermediary that simply facilitates transactions in goods and services among Users or members on Our Platform & Network, We would not be liable for the fulfilment of any orders or any acts or omissions of service professionals registered on The Network. We also specifically disclaim liability concerning any illegal, infringing, duplicate, counterfeit, expired, or spurious goods purchased by the buyer from the seller, notwithstanding anything to the contrary specified by the latter on the Platform & Network.`,
+      text: `11.2  Liability for lost business opportunity, spurious goods et al: To the fullest extent permitted by law, theNetwork along with its affiliates, partners, licensors, associates, and group companies disclaim all liability concerning lost profits or lost business opportunities. Further, owing to Our role as an intermediary that simply facilitates transactions in goods and services among Users or members on Our Platform & Network, We would not be liable for the fulfilment of any orders or any acts or omissions of service professionals registered on theNetwork. We also specifically disclaim liability concerning any illegal, infringing, duplicate, counterfeit, expired, or spurious goods purchased by the buyer from the seller, notwithstanding anything to the contrary specified by the latter on the Platform & Network.`,
     },
     {
       type: "paragraph",
@@ -367,7 +367,7 @@ export const TERMS_AND_CONDITIONS = {
     },
     {
       type: "paragraph",
-      text: `12.5  Any content exchanged between Users or members is neither attributable to Us nor does it represent Our opinion. We cannot be held liable for any third-party and User Content. We disclaim all responsibility for any and all content as well as the nature of such content exchanged between Users or members on The Network.`,
+      text: `12.5  Any content exchanged between Users or members is neither attributable to Us nor does it represent Our opinion. We cannot be held liable for any third-party and User Content. We disclaim all responsibility for any and all content as well as the nature of such content exchanged between Users or members on theNetwork.`,
     },
     {
       type: "paragraph",

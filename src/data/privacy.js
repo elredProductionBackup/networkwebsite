@@ -5,7 +5,7 @@ export const PRIVACY_POLICY = {
     { type: "heading", text: `1. PRELIMINARY` },
     {
       type: "paragraph",
-      text: `1.1  This privacy policy ("Privacy Policy") is issued by Rex Tone Digital Pvt. Ltd. ("The Network" or "Us" or "We" or "Our") and forms a legally binding agreement between You ("User" or "You" or "Your") and The Network. It applies to Your use of the Platform and Our Services and governs the manner in which any data, whether true or not, from which You can be identified ("Personal Data") under Applicable Laws (collectively "Data Protection Laws"). We understand the value of Your privacy and accordingly, maintain the highest security standards for securing Your information.`,
+      text: `1.1  This privacy policy ("Privacy Policy") is issued by Rex Tone Digital Pvt. Ltd. ("theNetwork" or "Us" or "We" or "Our") and forms a legally binding agreement between You ("User" or "You" or "Your") and theNetwork. It applies to Your use of the Platform and Our Services and governs the manner in which any data, whether true or not, from which You can be identified ("Personal Data") under Applicable Laws (collectively "Data Protection Laws"). We understand the value of Your privacy and accordingly, maintain the highest security standards for securing Your information.`,
     },
     {
       type: "paragraph",
@@ -22,15 +22,15 @@ export const PRIVACY_POLICY = {
     { type: "heading", text: `2. CONSENT` },
     {
       type: "paragraph",
-      text: `2.1  You hereby expressly consent to providing Your Personal Data to The Network for the purposes specified under this Privacy Policy, which is required in relation to the Services being rendered on the Platform by Us. You acknowledge that We shall collect Your Personal Data detailed under this Privacy Policy to facilitate Our Services including the transactions undertaken by Users on The Network, either by ourselves or by partnering with the relevant third-party service providers.`,
+      text: `2.1  You hereby expressly consent to providing Your Personal Data to theNetwork for the purposes specified under this Privacy Policy, which is required in relation to the Services being rendered on the Platform by Us. You acknowledge that We shall collect Your Personal Data detailed under this Privacy Policy to facilitate Our Services including the transactions undertaken by Users on theNetwork, either by ourselves or by partnering with the relevant third-party service providers.`,
     },
     {
       type: "paragraph",
-      text: `2.2  Please note that The Network will only be using Your Personal Data for the purposes specified under this Privacy Policy in providing the Services to You.`,
+      text: `2.2  Please note that theNetwork will only be using Your Personal Data for the purposes specified under this Privacy Policy in providing the Services to You.`,
     },
     {
       type: "paragraph",
-      text: `2.3  In order to avail any Services being provided by The Network by itself or in partnership with other third parties, it is important that YOU READ, UNDERSTAND, ACKNOWLEDGE AND UNCONDITIONALLY AGREE TO BE BOUND BY THIS PRIVACY POLICY.`,
+      text: `2.3  In order to avail any Services being provided by theNetwork by itself or in partnership with other third parties, it is important that YOU READ, UNDERSTAND, ACKNOWLEDGE AND UNCONDITIONALLY AGREE TO BE BOUND BY THIS PRIVACY POLICY.`,
     },
     {
       type: "paragraph",
@@ -133,7 +133,7 @@ export const PRIVACY_POLICY = {
     },
     {
       type: "paragraph",
-      text: `To allow us to incorporate automated measures to expedite the process of matching The Network Users with complementary requirements.`,
+      text: `To allow us to incorporate automated measures to expedite the process of matching theNetwork Users with complementary requirements.`,
     },
     {
       type: "paragraph",
@@ -141,7 +141,7 @@ export const PRIVACY_POLICY = {
     },
     {
       type: "paragraph",
-      text: `Device data: Information We collect from the devices You use to access or operate the Platform. This includes, without limitation, information about Your device attributes and identifiers, plugins, name of Your mobile operator or ISP, SMS sent by The Network, device language, time zone, IP address, connection speed, device applications, contact list, or any information available on such device.`,
+      text: `Device data: Information We collect from the devices You use to access or operate the Platform. This includes, without limitation, information about Your device attributes and identifiers, plugins, name of Your mobile operator or ISP, SMS sent by theNetwork, device language, time zone, IP address, connection speed, device applications, contact list, or any information available on such device.`,
     },
     {
       type: "paragraph",
@@ -243,7 +243,7 @@ export const PRIVACY_POLICY = {
     },
     {
       type: "paragraph",
-      text: `3.13  You also agree that all the information furnished by You is lawful, true and correct and does not violate or infringe any Applicable Laws. In case of any violations, infringement, furnishing of wrongful or unauthorized information, The Network shall not be liable to You or to any third party for the same.`,
+      text: `3.13  You also agree that all the information furnished by You is lawful, true and correct and does not violate or infringe any Applicable Laws. In case of any violations, infringement, furnishing of wrongful or unauthorized information, theNetwork shall not be liable to You or to any third party for the same.`,
     },
     {
       type: "paragraph",
@@ -304,15 +304,15 @@ export const PRIVACY_POLICY = {
     { type: "heading", text: `4. PURPOSE OF COLLECTION` },
     {
       type: "paragraph",
-      text: `4.1  We use Your Personal Data to send You promotional emails and messages. However, We will provide You the ability to opt-out of receiving such emails and messages from Us. If You opt out, The Network may still send You non-promotional emails and messages, such as emails and messages about the Services and Your User Account on the Platform. Unless and until You explicitly give Your consent to Us to do so, We will not share Your Personal Data with any other entity.`,
+      text: `4.1  We use Your Personal Data to send You promotional emails and messages. However, We will provide You the ability to opt-out of receiving such emails and messages from Us. If You opt out, theNetwork may still send You non-promotional emails and messages, such as emails and messages about the Services and Your User Account on the Platform. Unless and until You explicitly give Your consent to Us to do so, We will not share Your Personal Data with any other entity.`,
     },
     {
       type: "paragraph",
-      text: `4.2  In connection with the activities above, We may conduct profiling based on Your interactions with Us, Your profile information and other content You submit, and information obtained from third parties. In limited cases, automated processes may restrict or suspend access to the Platform, if such processes detect an activity that We think poses a safety or other risk to The Network, other Users, or third parties.`,
+      text: `4.2  In connection with the activities above, We may conduct profiling based on Your interactions with Us, Your profile information and other content You submit, and information obtained from third parties. In limited cases, automated processes may restrict or suspend access to the Platform, if such processes detect an activity that We think poses a safety or other risk to theNetwork, other Users, or third parties.`,
     },
     {
       type: "paragraph",
-      text: `4.3  Notwithstanding anything contained herein, The Network may, in compliance with Applicable Laws in India, process Your Personal Data without obtaining Your consent in the event:`,
+      text: `4.3  Notwithstanding anything contained herein, theNetwork may, in compliance with Applicable Laws in India, process Your Personal Data without obtaining Your consent in the event:`,
     },
     {
       type: "paragraph",
@@ -422,7 +422,7 @@ export const PRIVACY_POLICY = {
     },
     {
       type: "paragraph",
-      text: `6.3  The security controls and practices implemented by The Network to protect Your Personal Data under this Privacy Policy shall be in accordance with the reasonable security practices and procedures under Section 43A of the Information Technology Act, 2000.`,
+      text: `6.3  The security controls and practices implemented by theNetwork to protect Your Personal Data under this Privacy Policy shall be in accordance with the reasonable security practices and procedures under Section 43A of the Information Technology Act, 2000.`,
     },
     {
       type: "paragraph",
@@ -492,7 +492,7 @@ export const PRIVACY_POLICY = {
     },
     {
       type: "paragraph",
-      text: `8.2  The Personal Data collected by Us would be stored and/or processed on servers located in India, and such storage shall be in compliance with the Data Protection Laws. The Network will also be entitled to use third-party service providers such as MongoDB to store Your Personal Data. The storage location(s) are chosen to operate efficiently, improve performance, and reduce probability of errors while protecting Your Personal Data in the event of an outage or other problems.`,
+      text: `8.2  The Personal Data collected by Us would be stored and/or processed on servers located in India, and such storage shall be in compliance with the Data Protection Laws. theNetwork will also be entitled to use third-party service providers such as MongoDB to store Your Personal Data. The storage location(s) are chosen to operate efficiently, improve performance, and reduce probability of errors while protecting Your Personal Data in the event of an outage or other problems.`,
     },
     {
       type: "paragraph",
@@ -524,7 +524,7 @@ export const PRIVACY_POLICY = {
     },
     {
       type: "paragraph",
-      text: `(a) The Network's Information Technology department is responsible for deleting or destroying electronic records. This includes ensuring that the Personal Data and other information is permanently removed from Our servers;`,
+      text: `(a) theNetwork's Information Technology department is responsible for deleting or destroying electronic records. This includes ensuring that the Personal Data and other information is permanently removed from Our servers;`,
     },
     {
       type: "paragraph",
@@ -573,7 +573,7 @@ export const PRIVACY_POLICY = {
     },
     {
       type: "paragraph",
-      text: `(c) In case You do not provide Your consent or later withdraw Your consent, We request You not to access the Platform and use the Services and We also reserve the right to not provide You any particular Service or functionality on the Platform. In such a scenario, The Network may delete Your Personal Data or other information it had earlier collected and stored, or de-identify it so that it is anonymous and not attributable to You.`,
+      text: `(c) In case You do not provide Your consent or later withdraw Your consent, We request You not to access the Platform and use the Services and We also reserve the right to not provide You any particular Service or functionality on the Platform. In such a scenario, theNetwork may delete Your Personal Data or other information it had earlier collected and stored, or de-identify it so that it is anonymous and not attributable to You.`,
     },
     {
       type: "paragraph",

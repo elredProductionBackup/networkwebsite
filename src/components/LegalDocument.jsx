@@ -1,5 +1,59 @@
 import FadeIn from "@/components/FadeIn";
 
+// Matches either a markdown-style [label](url) link or a bare http(s) URL.
+const LINK_REGEX = /\[([^\]]+)\]\(([^)]+)\)|(https?:\/\/[^\s]+)/g;
+
+function renderWithLinks(text) {
+  const matches = [...text.matchAll(LINK_REGEX)];
+  if (matches.length === 0) return text;
+
+  const result = [];
+  let lastIndex = 0;
+
+  matches.forEach((match, index) => {
+    const start = match.index;
+    if (start > lastIndex) {
+      result.push(text.slice(lastIndex, start));
+    }
+
+    const [fullMatch, markdownLabel, markdownUrl, bareUrl] = match;
+    let url = markdownUrl ?? bareUrl;
+    let label = markdownLabel ?? bareUrl;
+    let trailing = "";
+
+    if (!markdownUrl) {
+      const trailingPunctuation = url.match(/[.,;:)\]]+$/);
+      if (trailingPunctuation) {
+        trailing = trailingPunctuation[0];
+        url = url.slice(0, -trailing.length);
+        label = url;
+      }
+    }
+
+    const isExternal = /^https?:\/\//.test(url);
+
+    result.push(
+      <a
+        key={index}
+        href={url}
+        {...(isExternal ? { target: "_blank", rel: "noopener noreferrer" } : {})}
+        className="text-red-600 underline hover:text-red-700"
+      >
+        {label}
+      </a>,
+    );
+    if (trailing) result.push(trailing);
+
+    lastIndex = start + fullMatch.length;
+  });
+
+  if (lastIndex < text.length) {
+    result.push(text.slice(lastIndex));
+  }
+
+  return result;
+}
+
 export default function LegalDocument({ eyebrow, data }) {
   const { title, lastUpdated, blocks } = data;
 
@@ -44,7 +98,7 @@ export default function LegalDocument({ eyebrow, data }) {
                   className="flex list-disc flex-col gap-2 pl-5 text-sm leading-7 text-neutral-600 sm:text-base"
                 >
                   {block.items.map((item, itemIndex) => (
-                    <li key={itemIndex}>{item}</li>
+                    <li key={itemIndex}>{renderWithLinks(item)}</li>
                   ))}
                 </ul>
               );
@@ -55,7 +109,7 @@ export default function LegalDocument({ eyebrow, data }) {
                 key={key}
                 className="text-sm leading-7 text-neutral-600 sm:text-base"
               >
-                {block.text}
+                {renderWithLinks(block.text)}
               </p>
             );
           })}
