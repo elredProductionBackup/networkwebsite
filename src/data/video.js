@@ -2,21 +2,21 @@ export const VIDEO_DATA = [
   {
     id: "video1",
     type: "file",
-    url: "https://res.cloudinary.com/frr7vpv4/video/upload/v1784868225/1_x4omxy.mp4",
+    url: "https://res.cloudinary.com/frr7vpv4/video/upload/v1785827783/collaboration_up5hdu.mp4",
   },
   {
     id: "video2",
     type: "file",
-    url: "https://res.cloudinary.com/frr7vpv4/video/upload/v1784868224/2_foxzzl.mp4",
+    url: "https://res.cloudinary.com/frr7vpv4/video/upload/v1785827780/problems_eicgwf.mp4",
   },
   {
     id: "video3",
     type: "file",
-    url: "https://res.cloudinary.com/frr7vpv4/video/upload/v1784868223/3_tac0f7.mp4",
+    url: "https://res.cloudinary.com/frr7vpv4/video/upload/vc_h264/v1785827960/customer_ung6zq.mp4",
   },
   {
     id: "video4",
     type: "file",
-    url: "https://res.cloudinary.com/frr7vpv4/video/upload/v1784868227/4_k6fwnp.mp4",
+    url: "https://res.cloudinary.com/frr7vpv4/video/upload/vc_h264/v1785827801/events_zm77hm.mp4",
   },
 ];

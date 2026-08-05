@@ -15,6 +15,7 @@ const LINKS = [
 const LEGAL = [
   { name: "Privacy Policy", href: "/privacy-policy" },
   { name: "Terms & Conditions", href: "/terms-and-conditions" },
+  { name: "Community Guidelines", href: "/community-guidelines" },
   { name: "Pay It Forward", href: "/pay-it-forward" },
 ];
 

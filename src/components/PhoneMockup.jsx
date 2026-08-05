@@ -1,4 +1,30 @@
-export default function PhoneMockup({ children, className = "", width }) {
+export default function PhoneMockup({
+  children,
+  className = "",
+  width,
+  thin = false,
+}) {
+  if (thin) {
+    return (
+      <div
+        className={`relative aspect-[9/19] rounded-[1.2rem] border-[4px] border-black bg-black shadow-2xl ${
+          width ? "" : "w-64 sm:w-72"
+        } ${className}`}
+        style={width ? { width } : undefined}
+      >
+        <div className="relative h-full w-full overflow-hidden rounded-[1rem] bg-white">
+          <div className="absolute inset-0">{children}</div>
+        </div>
+
+        {/* Side buttons */}
+        <div className="absolute -left-[6px] top-14 h-4 w-[2px] rounded-l-sm bg-black" />
+        <div className="absolute -left-[6px] top-20 h-7 w-[2px] rounded-l-sm bg-black" />
+        <div className="absolute -left-[6px] top-28 h-7 w-[2px] rounded-l-sm bg-black" />
+        <div className="absolute -right-[6px] top-20 h-10 w-[2px] rounded-r-sm bg-black" />
+      </div>
+    );
+  }
+
   return (
     <div
       className={`relative aspect-[9/19] rounded-[2.5rem] border-[10px] border-black bg-black shadow-2xl ${

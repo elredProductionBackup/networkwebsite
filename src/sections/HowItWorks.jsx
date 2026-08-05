@@ -1,5 +1,6 @@
 import { Diamond, Zap, AlignLeft, Calendar } from "lucide-react";
 import FadeIn from "@/components/FadeIn";
+import PhoneMockup from "@/components/PhoneMockup";
 import { VIDEO_DATA } from "@/data/video";
 
 const FEATURES = [
@@ -48,42 +49,45 @@ export default function HowItWorks() {
         </p>
       </FadeIn>
 
-      <div className="grid w-full max-w-4xl grid-cols-1 gap-6 lg:grid-cols-2">
-        {FEATURES.map(({ videoId, icon: Icon, title, description }, index) => {
-          const video = VIDEO_DATA.find((v) => v.id === videoId);
+      <FadeIn className="w-full">
+        <div className="flex gap-6 overflow-x-auto px-1 pb-2 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+          {FEATURES.map(({ videoId, icon: Icon, title, description }) => {
+            const video = VIDEO_DATA.find((v) => v.id === videoId);
 
-          return (
-            <FadeIn
-              key={title}
-              delay={index * 0.1}
-              className="overflow-hidden rounded-2xl border border-neutral-200"
-            >
-              <div className="flex h-72 items-center justify-center bg-neutral-100">
-                {video ? (
-                  <video
-                    src={video.url}
-                    className="h-full aspect-[1/2] rounded-lg object-cover shadow-md"
-                    autoPlay
-                    muted
-                    loop
-                    playsInline
-                  />
-                ) : null}
-              </div>
-
-              <div className="flex flex-col items-start gap-3 p-6 text-left">
-                <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-red-50">
-                  <Icon className="h-4 w-4 text-red-600" strokeWidth={2} />
+            return (
+              <div
+                key={title}
+                className="w-72 flex-shrink-0 overflow-hidden rounded-2xl border border-neutral-200 sm:w-80"
+              >
+                <div className="flex h-80 items-center justify-center bg-neutral-100 py-6">
+                  {video ? (
+                    <PhoneMockup width="150px" thin>
+                      <video
+                        src={video.url}
+                        className="h-full w-full object-cover"
+                        autoPlay
+                        muted
+                        loop
+                        playsInline
+                      />
+                    </PhoneMockup>
+                  ) : null}
                 </div>
-                <h3 className="text-base font-bold text-black">{title}</h3>
-                <p className="text-sm leading-6 text-neutral-500">
-                  {description}
-                </p>
+
+                <div className="flex flex-col items-start gap-3 p-6 text-left">
+                  <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-red-50">
+                    <Icon className="h-4 w-4 text-red-600" strokeWidth={2} />
+                  </div>
+                  <h3 className="text-base font-bold text-black">{title}</h3>
+                  <p className="text-sm leading-6 text-neutral-500">
+                    {description}
+                  </p>
+                </div>
               </div>
-            </FadeIn>
-          );
-        })}
-      </div>
+            );
+          })}
+        </div>
+      </FadeIn>
     </section>
   );
 }
