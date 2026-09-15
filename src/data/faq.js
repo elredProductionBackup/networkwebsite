@@ -44,7 +44,7 @@ export const FAQ_DATA = [
     items: [
       {
         question: "Is the app available both on IoS and Android?",
-        answer: "Yes. Please search for el red",
+        answer: "Yes. Please search for the Network",
       },
     ],
   },
@@ -150,7 +150,7 @@ export const FAQ_DATA = [
       {
         question: "Some notifications are coming to me by WhatsApp. What are these?",
         answer:
-          "Leads / possible customers are sent to you over whatsapp. As this is a possible opportunity we share this on el RED as also over whatsapp. You could choose to put a stop to this by simply messaging 'stop' to such notifications.",
+          "Leads / possible customers are sent to you over whatsapp. As this is a possible opportunity we share this on the Network as also over whatsapp. You could choose to put a stop to this by simply messaging 'stop' to such notifications.",
       },
     ],
   },
@@ -184,10 +184,10 @@ export const FAQ_DATA = [
       {
         question: "Can users share/refer my needs to others?",
         answer:
-          "Yes they can forward your needs over whatsapp. In the next phase of features, we will roll out the option for 'non forwardable needs'. For now they are shareable over whatsapp. Forwarding a Need in el RED Groups is part of a future release.",
+          "Yes they can forward your needs over whatsapp. In the next phase of features, we will roll out the option for 'non forwardable needs'. For now they are shareable over whatsapp. Forwarding a Need in the Network Groups is part of a future release.",
       },
       {
-        question: "Can I share a need outside of el RED?",
+        question: "Can I share a need outside of the Network?",
         answer: "Yes on other messaging platforms such as whatsapp, telegram etc",
       },
       {
@@ -295,7 +295,7 @@ export const FAQ_DATA = [
       {
         question: "Why can't I change my name after Aadhaar verification?",
         answer:
-          "el RED is all about Authenticity. The platform thus once has confirmed your aadhar verified name, it cannot be undone.",
+          "the Network is all about Authenticity. The platform thus once has confirmed your aadhar verified name, it cannot be undone.",
       },
       {
         question: 'What is this section on "I can offer"?',
@@ -305,7 +305,7 @@ export const FAQ_DATA = [
       {
         question: "How do I change the appearance/layout of my card?",
         answer:
-          "You could choose any of the designs we offer and or upload a picture from your camera / phone gallery. We believe that an el RED profile is a reflectance of your personality and is your on-the-go personal website and that you could personalise it to your taste.",
+          "You could choose any of the designs we offer and or upload a picture from your camera / phone gallery. We believe that a profile on the Network is a reflectance of your personality and is your on-the-go personal website and that you could personalise it to your taste.",
       },
       {
         question: "What is the share icon?",
@@ -334,7 +334,7 @@ export const FAQ_DATA = [
       {
         question: "What is My Super Power on the profile?",
         answer:
-          "el RED is a lot about authenticity & personality and not being just a resume. These 4 questions are to us a reflectance of the users authentic personality if the user so chooses to answer it.",
+          "the Network is a lot about authenticity & personality and not being just a resume. These 4 questions are to us a reflectance of the users authentic personality if the user so chooses to answer it.",
       },
       {
         question: "What is My bio on the profile?",
@@ -343,7 +343,7 @@ export const FAQ_DATA = [
       {
         question: "Can I control who sees my profile?",
         answer:
-          "No. It can be viewed by those on el Red as also those not. Thus do choose to share what you think would be public information.",
+          "No. It can be viewed by those on the Network as also those not. Thus do choose to share what you think would be public information.",
       },
       {
         question: "Can I link social media/other socials to my account or profile?",
@@ -358,7 +358,7 @@ export const FAQ_DATA = [
       {
         question: "Is there a difference between a network & a group?",
         answer:
-          "Yes. el RED primarily has networks. Each network will have a minimum of 1 group but could have as many groups within it. The admin of a network (referred as 'super admin') can assign admin right to group owners.",
+          "Yes. the Network primarily has networks. Each network will have a minimum of 1 group but could have as many groups within it. The admin of a network (referred as 'super admin') can assign admin right to group owners.",
       },
       {
         question:
@@ -383,12 +383,12 @@ export const FAQ_DATA = [
       {
         question: "Can members message other members within a group or network?",
         answer:
-          "No. This is because el Red may allow group size to be in thousands or more. If anyone can message anyone, then it either leads to solicitations & invasion of privacy.",
+          "No. This is because the Network may allow group size to be in thousands or more. If anyone can message anyone, then it either leads to solicitations & invasion of privacy.",
       },
       {
         question: "How do I join a group?",
         answer:
-          "The admin of that group has to invite you. Only if your email, phone number as listed by you when you signed up for el RED, matches that used by the admin, do you then get access.",
+          "The admin of that group has to invite you. Only if your email, phone number as listed by you when you signed up for the Network, matches that used by the admin, do you then get access.",
       },
       {
         question: "How do I create a network?",
@@ -416,7 +416,7 @@ export const FAQ_DATA = [
     items: [
       {
         question:
-          "How secure is el RED? What do you do with my personal information? Does my personal information get shared? Does el RED share/sell my user data? Who gets access to my phone number and email?",
+          "How secure is the Network? What do you do with my personal information? Does my personal information get shared? Does the Network share/sell my user data? Who gets access to my phone number and email?",
         answer:
           "Kindly review https://elred.io/wp-content/uploads/2024/08/elRed_Security_Doc.pdf",
       },

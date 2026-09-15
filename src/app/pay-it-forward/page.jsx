@@ -32,12 +32,12 @@ export default function Page() {
             </p>
           </div>
         </FadeIn>
+      </div>
 
-        <div className="flex flex-col gap-6">
-          {PAY_IT_FORWARD_DATA.map((book, index) => (
-            <BookCard key={book.title} book={book} delay={(index % 4) * 0.06} />
-          ))}
-        </div>
+      <div className="relative mx-auto mt-12 flex max-w-6xl flex-col gap-6">
+        {PAY_IT_FORWARD_DATA.map((book, index) => (
+          <BookCard key={book.title} book={book} delay={(index % 4) * 0.06} />
+        ))}
       </div>
     </div>
   );

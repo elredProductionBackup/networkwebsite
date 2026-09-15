@@ -3,20 +3,12 @@
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
-import { User, Check, Star, ShieldCheck, Diamond, History } from "lucide-react";
 import FadeIn from "@/components/FadeIn";
 import PhoneMockup from "@/components/PhoneMockup";
 import trust1Screen from "@/images/screens/attach-trust1.jpeg";
 import trust2Screen from "@/images/screens/attach-trust2.jpeg";
 
-const TRUST_ITEMS = [
-  { label: "Professional profiles", icon: User },
-  // { label: "Verified connections", icon: Check },
-  { label: "Community ratings", icon: Star },
-  // { label: "Reputation signals", icon: ShieldCheck },
-  { label: "Industry expertise", icon: Diamond },
-  // { label: "Relationship history", icon: History },
-];
+const CHIPS = ["Vouched-for members", "Earned reputation", "No negative rating"];
 
 const SCREENS = [trust1Screen, trust2Screen];
 
@@ -32,32 +24,39 @@ export default function TrustInfrastructure() {
 
   return (
     <section className="flex min-h-[500px] w-full items-center bg-white px-6 py-20 sm:px-10 lg:px-16">
-      <div className="mx-auto grid w-full max-w-6xl gap-12 lg:grid-cols-2 lg:items-center">
-        <FadeIn className="flex w-full flex-col items-start gap-6 text-left">
+      <div className="mx-auto flex w-full max-w-6xl flex-col gap-12">
+        <FadeIn className="flex flex-col items-center gap-3 text-center">
           <span className="text-xs font-bold tracking-wider text-red-600">
-            TRUST INFRASTRUCTURE
+            WHY IT&apos;S DIFFERENT
           </span>
+          <h2 className="text-3xl font-extrabold tracking-tight text-black sm:text-4xl md:text-5xl">
+            Built around real relationships
+          </h2>
+          <p className="text-sm text-neutral-500 sm:text-base">
+            Every feature designed to deepen trust and accelerate meaningful
+            connections.
+          </p>
+        </FadeIn>
 
+        <div className="grid w-full gap-12 lg:grid-cols-2 lg:items-center">
+        <FadeIn className="flex w-full flex-col items-start gap-6 text-left">
           <h2 className="text-3xl font-bold leading-tight tracking-tight text-black sm:text-4xl">
-            Built on trust, <span className="text-red-600">not followers</span>
+            Ratings built on real experience <span className="text-red-600">This gets you doors opened.</span>
           </h2>
 
           <p className="text-sm leading-6 text-neutral-500 sm:text-base">
-            Your reputation on theNetwork is built through real interactions,
-            community endorsements, and verified expertise — not follower
-            counts.
+           Build a network where professional relationships are backed by real interactions and the collective experience of the community. See whether members have met in person or virtually and whether others consider them safe and ethical to do business with.
           </p>
 
-          <div className="grid grid-cols-1 gap-x-10 gap-y-4 sm:grid-cols-2">
-            {TRUST_ITEMS.map(({ label, icon: Icon }) => (
-              <div key={label} className="flex items-center gap-3">
-                <div className="flex h-7 w-7 shrink-0 items-center justify-center rounded-md bg-red-50">
-                  <Icon className="h-3.5 w-3.5 text-red-600" strokeWidth={2} />
-                </div>
-                <span className="text-sm font-medium text-black">
-                  {label}
-                </span>
-              </div>
+          <div className="flex flex-wrap gap-3">
+            {CHIPS.map((label) => (
+              <span
+                key={label}
+                className="flex items-center gap-2 rounded-full border border-neutral-200 px-4 py-2 text-sm font-medium text-black"
+              >
+                <span className="h-1.5 w-1.5 rounded-full bg-red-600" />
+                {label}
+              </span>
             ))}
           </div>
         </FadeIn>
@@ -98,6 +97,7 @@ export default function TrustInfrastructure() {
             ))}
           </div>
         </FadeIn>
+        </div>
       </div>
     </section>
   );

@@ -15,17 +15,16 @@ export default function Hero() {
         <FadeIn className="flex max-w-2xl flex-col items-start gap-6 text-left">
           <span className="flex items-center gap-2 rounded-full bg-red-50 px-4 py-2 text-xs font-bold tracking-wider text-red-600 shadow-md shadow-red-200/50">
             <span className="h-1.5 w-1.5 rounded-full bg-red-600" />
-            FOR LARGE GROUPS, COMMUNITIES &amp; NETWORKS
+            WHERE COLLABORATION STARTS
           </span>
 
-          <h1 className="text-4xl font-extrabold leading-tight tracking-tight text-black sm:text-5xl md:text-6xl">
-            The trusted way to find{" "}
-            <span className="text-red-600">the right partner</span>.
+          <h1 className="text-4xl font-extrabold leading-tight tracking-tight text-balance text-black sm:text-5xl md:text-6xl">
+            Designed for large{" "}
+            <span className="text-red-600">groups</span> and communities.
           </h1>
 
           <p className="max-w-lg text-base leading-7 text-neutral-500 sm:text-lg">
-            Get trusted introductions, solve business challenges, find
-            collaborators, and unlock opportunities from your network.
+            Designed around two core actions: find the right partners within the larger community, and find the right solutions by sharing problems with the wider network.
           </p>
 
           <div className="flex flex-col gap-3 sm:flex-row">
@@ -57,6 +56,10 @@ export default function Hero() {
               </span>
             </a>
           </div>
+
+          <p className="text-xs font-medium text-neutral-500">
+            No cold DMs, ever.
+          </p>
         </FadeIn>
 
         <FadeIn delay={0.15} className="flex justify-center lg:justify-center">

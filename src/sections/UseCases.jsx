@@ -2,10 +2,8 @@ import { Diamond, Building2, Landmark, TrendingUp, GraduationCap, Star } from "l
 import FadeIn from "@/components/FadeIn";
 
 const USE_CASES = [
-  { name: "Founder networks", icon: Diamond },
-  { name: "CEO communities", icon: Building2 },
+  { name: "Social networks", icon: Diamond },
   { name: "Industry associations", icon: Landmark },
-  { name: "Investor groups", icon: TrendingUp },
   { name: "Alumni communities", icon: GraduationCap },
   { name: "Professional networks", icon: Star },
 ];
@@ -18,14 +16,9 @@ export default function UseCases() {
           USE CASES
         </span>
 
-        <h2 className="max-w-xs text-3xl tracking-tight font-extrabold leading-tight text-black sm:max-w-2xl sm:text-4xl md:text-5xl">
-          Designed for high-value communities
+        <h2 className="max-w-xs text-2xl tracking-tight font-extrabold leading-tight text-black sm:max-w-2xl sm:text-4xl md:text-3xl">
+          Built to unify large networks across multiple groups, chapters and clubs
         </h2>
-
-        <p className="max-w-xs text-sm tracking-tight text-neutral-500 sm:max-w-lg sm:text-base md:text-lg">
-          From founder circles to enterprise networks — theNetwork scales with
-          the communities that matter most.
-        </p>
       </FadeIn>
 
       <div className="grid w-full max-w-4xl grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">

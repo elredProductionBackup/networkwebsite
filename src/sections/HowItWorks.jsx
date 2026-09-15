@@ -7,30 +7,30 @@ const FEATURES = [
   {
     videoId: "video1",
     icon: Diamond,
-    title: "Foster collaboration",
+    title: "Find your partner",
     description:
-      "Your profile becomes your opportunity. Intelligent matching identifies the right members to collaborate with — whether you're seeking customers, suppliers, investors, strategic partners, or expertise.",
+      "The landing page brings together each member’s role, professional skills, company profile, and partnership preferences, helping others understand their strengths, discover synergies, and collaborate more meaningfully.",
   },
   {
     videoId: "video2",
     icon: Zap,
     title: "Solve problems",
     description:
-      "The collective intelligence of a trusted network is its greatest asset. Share your challenge, and receive targeted support from members whose experience, expertise, or connections can help move you forward.",
+      " Members can put business problems before the right people, with a dedicated thread created for every problem, enabling focused responses without becoming another noisy group that gets archived.",
   },
   {
     videoId: "video3",
     icon: AlignLeft,
     title: "Find customers",
     description:
-      "Every request creates opportunity. If a member is looking for exactly what you provide, you'll be notified instantly — helping you discover qualified customers without actively searching.",
+      "When any problem shared in the network matches your skills, product or service, you’re notified immediately, helping you identify the member behind it as a potential customer for your business.",
   },
   {
     videoId: "video4",
     icon: Calendar,
     title: "Collaboration at events",
     description:
-      "Know who's in the room before you arrive. Discover attendees, understand the value they bring, and identify the conversations, collaborations, and opportunities worth making time for.",
+      "Before every event, members know exactly who is likely to be most valuable to them, with AI identifying the most relevant people to meet, connect with and explore opportunities.",
   },
 ];
 
@@ -42,22 +42,20 @@ export default function HowItWorks() {
           HOW IT WORKS
         </span>
         <h2 className="text-3xl font-bold tracking-tight text-black sm:text-4xl">
-          Noise free collaboration
+         Built to unlock the full potential of your network
         </h2>
-        <p className="text-sm text-neutral-500 sm:text-base">
-          Matchmaking you with those from your network.
-        </p>
+
       </FadeIn>
 
-      <FadeIn className="w-full">
-        <div className="flex gap-6 overflow-x-auto px-1 pb-2 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+      <FadeIn className="w-full max-w-6xl">
+        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {FEATURES.map(({ videoId, icon: Icon, title, description }) => {
             const video = VIDEO_DATA.find((v) => v.id === videoId);
 
             return (
               <div
                 key={title}
-                className="w-72 flex-shrink-0 overflow-hidden rounded-2xl border border-neutral-200 sm:w-80"
+                className="overflow-hidden rounded-2xl border border-neutral-200"
               >
                 <div className="flex h-80 items-center justify-center bg-neutral-100 py-6">
                   {video ? (
