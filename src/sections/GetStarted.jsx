@@ -1,4 +1,5 @@
-import Link from "next/link";
+import { Play } from "lucide-react";
+import { IoIosAppstore } from "react-icons/io";
 import FadeIn from "@/components/FadeIn";
 
 export default function GetStarted() {
@@ -10,33 +11,42 @@ export default function GetStarted() {
         </span>
 
         <h2 className="max-w-xs text-3xl tracking-tight font-extrabold leading-tight text-black sm:max-w-2xl sm:text-4xl md:text-5xl">
-          Your next opportunity is already in your network.
+          The introduction that changes your quarter is one tap away.
         </h2>
 
         <p className="max-w-xs text-sm tracking-tight text-neutral-500 sm:max-w-lg sm:text-base md:text-lg">
-          Stop cold outreach. Start building trusted relationships that create
-          real business outcomes.
+          Stop chasing strangers. Start getting handed to the right ones.
         </p>
 
-        <div className="flex w-full max-w-xs flex-col items-center gap-3 sm:w-auto sm:max-w-none sm:flex-row sm:gap-4">
-          <Link
-            href="#"
-            className="flex w-full items-center justify-center gap-2 rounded-lg bg-red-600 px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-red-700 sm:w-auto"
+        <div className="flex flex-col gap-3 sm:flex-row">
+          <a
+            href="https://apps.apple.com/in/app/el-red/id6468586886"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-3 rounded-xl bg-black px-5 py-3 text-white transition-colors hover:bg-neutral-800"
           >
-            Join theNetwork
-            <span aria-hidden="true">→</span>
-          </Link>
-          {/* <Link
-            href="#"
-            className="w-full rounded-lg border border-neutral-300 px-6 py-3 text-sm font-semibold text-black transition-colors hover:bg-neutral-100 sm:w-auto"
+            <IoIosAppstore className="h-7 w-7" />
+            <span className="flex flex-col items-start leading-tight">
+              <span className="text-[11px] text-neutral-300">
+                Download on the
+              </span>
+              <span className="text-base font-semibold">App Store</span>
+            </span>
+          </a>
+
+          <a
+            href="https://play.google.com/store/apps/details?id=com.elredmod.one&pcampaignid=web_share"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-3 rounded-xl border border-neutral-300 px-5 py-3 text-black transition-colors hover:bg-neutral-50"
           >
-            Request demo
-          </Link> */}
+            <Play className="h-6 w-6 text-black" fill="currentColor" strokeWidth={0} />
+            <span className="flex flex-col items-start leading-tight">
+              <span className="text-[11px] text-neutral-500">Get it on</span>
+              <span className="text-base font-semibold">Google Play</span>
+            </span>
+          </a>
         </div>
-
-        <p className="max-w-xs text-xs text-neutral-500 font-medium sm:max-w-none">
-          Free to join &middot; No credit card required
-        </p>
       </FadeIn>
     </section>
   );

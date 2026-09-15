@@ -13,21 +13,21 @@ import collabScreen from "@/images/screens/attach-collab.jpeg";
 
 const TABS = [
   {
-    name: "Find Your Partner",
+    name: "Events & Connections",
     screen: fypScreen,
     description:
-      "Discover the right partners, advisors, and collaborators through a curated feed tailored to your professional context.",
+      "Know who from your network is attending, discover shared interests, understand what they do and what they bring to the table, and start meaningful conversations that can grow into genuine professional relationships.",
     checklist: [
-      "Business challenges feed",
-      "Opportunity discovery",
-      "Partner matching",
+      "Discover relevant people",
+      "Find mutual value",
+      "Build genuine relationships",
     ],
   },
   {
     name: "Community Responses",
     screen: communityScreen,
     description:
-      "Post a business challenge and let the network respond — members suggest contacts, share opportunities, and offer warm introductions relevant to your need.",
+      "Post a business challenge and let the network respond — members suggest contacts, share opportunities, and offer warm introductions relevant to your problem.",
     checklist: [
       "Trusted member responses",
       "Warm introductions",
@@ -38,22 +38,22 @@ const TABS = [
     name: "Professional Profiles",
     screen: profileScreen,
     description:
-      "Every profile is an authentic snapshot of who a member is and the value they bring — skills, expertise, testimonials and achievements.",
+      "Every profile is an authentic snapshot of who a member is and the value they bring — skills, expertise and offerings.",
     checklist: [
-      "Verified expertise",
-      "Testimonials & ratings",
+      "Professional background",
+      "User ratings",
       "Authentic personality",
     ],
   },
   {
-    name: "Collaborations",
+    name: "Relevant customers",
     screen: collabScreen,
     description:
-      "Turn conversations into outcomes. Build partnerships, close deals, secure investments, and grow through genuine collaboration.",
+      "Create new business opportunities by connecting with customers whose real needs align with what you offer, helping you build relationships around genuine value rather than cold outreach.",
     checklist: [
       "Partnership building",
-      "Deal & investment opportunities",
-      "Long-term relationships",
+      "Matched opportunities",
+      "Potential long-term relationships",
     ],
   },
 ];
@@ -64,16 +64,6 @@ export default function RealRelationships() {
 
   return (
     <section className="flex min-h-[700px] w-full flex-col items-center gap-12 bg-white px-6 py-20 sm:px-10 lg:px-16">
-      <FadeIn className="flex flex-col items-center gap-3 text-center">
-        <h2 className="text-3xl font-extrabold tracking-tight text-black sm:text-4xl md:text-5xl">
-          Built around real relationships
-        </h2>
-        <p className="text-sm text-neutral-500 sm:text-base">
-          Every feature designed to deepen trust and accelerate meaningful
-          connections.
-        </p>
-      </FadeIn>
-
       <div className="flex flex-wrap items-center justify-center gap-3">
         {TABS.map((tab) => {
           const isActive = tab.name === activeTab;

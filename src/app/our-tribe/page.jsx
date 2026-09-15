@@ -30,7 +30,7 @@ export default function Page() {
               delay={(index % 4) * 0.08}
               className="flex flex-col overflow-hidden rounded-2xl border border-neutral-200"
             >
-              <div className="relative aspect-square w-full bg-neutral-100">
+              <div className="relative aspect-[3/4] w-full bg-neutral-100">
                 <Image
                   src={image}
                   alt={name}

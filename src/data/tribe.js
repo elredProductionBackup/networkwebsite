@@ -1,16 +1,17 @@
-import saurabh from "@/images/our-tribe/Saurabh-Goswamy-elRED.jpeg";
-import malaika from "@/images/our-tribe/malaika.webp";
-import ritika from "@/images/our-tribe/ritika.jpg";
-import ananya from "@/images/our-tribe/ananya.jpg";
-import sumit from "@/images/our-tribe/sumit.webp";
-import tashaf from "@/images/our-tribe/tashaf.jpg";
-import nisarg from "@/images/our-tribe/nisarg.webp";
-import pershiba from "@/images/our-tribe/pershiba.webp";
-import nandini from "@/images/our-tribe/nandini.webp";
-import vignesh from "@/images/our-tribe/vignesh.webp";
-import uttam from "@/images/our-tribe/uttam.png";
-import meezan from "@/images/our-tribe/meezan.png";
-import siddharth from "@/images/our-tribe/siddharth.jpg";
+import saurabh from "@/images/tribe-members/saurabh_profile.avif";
+import malaika from "@/images/tribe-members/Malaika.jpg";
+import ritika from "@/images/tribe-members/Ritika (1).jpg";
+import ananya from "@/images/tribe-members/Ananya_jpg.avif";
+import sumit from "@/images/tribe-members/Sumit.jpg";
+import tashaf from "@/images/tribe-members/Tashaf (1).jpg";
+import nisarg from "@/images/tribe-members/Nisarg.png";
+import pershiba from "@/images/tribe-members/Pershiba.png";
+import nandini from "@/images/tribe-members/nandini_profile.avif";
+import vignesh from "@/images/tribe-members/Vignesh.jpg";
+import uttam from "@/images/tribe-members/Uttam.jpg";
+import meezan from "@/images/tribe-members/Meezan (1).png";
+import siddharth from "@/images/tribe-members/Siddharth.png";
+import rayyan from "@/images/tribe-members/Rayyan.png";
 
 export const TRIBE_DATA = [
   {
@@ -101,6 +102,13 @@ export const TRIBE_DATA = [
     role: "React JS Developer",
     description: "Crafting slick UI & smooth UX with React, Next.js & WordPress",
     quote: "Not just coding — I design how users feel online.",
+  },
+  {
+    name: "Rayyan",
+    image: rayyan,
+    role: "React JS Developer",
+    description: "Building fast, clean interfaces with React JS",
+    quote: "Good code is invisible — it just feels right to use.",
   },
   {
     name: "Siddharth",

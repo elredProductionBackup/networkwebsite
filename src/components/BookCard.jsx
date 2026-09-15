@@ -31,15 +31,13 @@ export default function BookCard({ book, delay = 0 }) {
           {title}
         </h3>
 
-        <div
-          className={`grid w-full overflow-hidden transition-all duration-300 ease-in-out ${
-            isOpen ? "grid-rows-[1fr] opacity-100" : "grid-rows-[0fr] opacity-0"
+        <p
+          className={`w-full whitespace-pre-line text-base leading-7 text-neutral-600 ${
+            isOpen ? "" : "line-clamp-8"
           }`}
         >
-          <p className="overflow-hidden text-base leading-7 text-neutral-600">
-            {description}
-          </p>
-        </div>
+          {description}
+        </p>
 
         <button
           type="button"
