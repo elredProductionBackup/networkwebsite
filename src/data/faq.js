@@ -14,28 +14,13 @@ export const FAQ_DATA = [
           "https://elred.io/privacy-policy/ and https://elred.io/terms-of-use/",
       },
       {
-        question: "Why does it ask for my personal phone number?",
-        answer:
-          "The user profile is an extension of the user personality and not that of the company you may represent. Thus we recommend that your personal phone number is used for signing up and creating a profile.",
-      },
-      {
         question: "What is this under see all?",
         answer: "It lists all the groups that are part of your network.",
       },
       {
-        question: "What is this feature?",
-        answer:
-          "At onboarding and or on your profile you have the choice to list keywords of what product or service you offer. Whenever the platform receives a 'need' that matches the keywords of what you offer, you would be notified of the same here.",
-      },
-      {
-        question: 'What is this section on "I can offer"?',
+        question: 'What is this section on "Lead/Offers"?',
         answer:
           "You should list keywords of products and services you can offer. By doing so, whenever the platform receives a 'need' that matches the keywords of what you offer, you would be notified of the same here.",
-      },
-      {
-        question: 'What is the "offerings gallery"?',
-        answer:
-          "You could create a product or service gallery listing details of what you offer.",
       },
     ],
   },
@@ -52,11 +37,6 @@ export const FAQ_DATA = [
     category: "Sign up",
     items: [
       {
-        question: "Why does it ask for my personal phone number?",
-        answer:
-          "The user profile is an extension of the user personality and not that of the company you may represent. Thus we recommend that your personal phone number is used for signing up and creating a profile.",
-      },
-      {
         question: "Why does it ask for a phone as well as email OTP?",
         answer:
           "Our experience is often we forget our email password and or change phone numbers. By using both option to 'sign up', we ensure you could use either in the future to 'sign in'",
@@ -71,6 +51,12 @@ export const FAQ_DATA = [
           "How do I change the phone number or email once I have signed up using them?",
         answer:
           "Currently the user is required to send us an email (via his / her secondary email) and post thorough verification / e kyc, we will change the original email / phone number.",
+      },
+      {
+        question:
+          'What if my landing page is showing this text "We are in Beta testing phase"',
+        answer:
+          "Currently we are beta testing only with the Awfis network. If you are part of awfis please contact your centre manager for access.",
       },
     ],
   },
@@ -87,55 +73,8 @@ export const FAQ_DATA = [
     category: "On the Landing Page",
     items: [
       {
-        question:
-          'What if my landing page is showing this text "We are in Beta testing phase"',
-        answer:
-          "Currently we are beta testing only with the Awfis network. If you are part of awfis please contact your centre manager for access.",
-      },
-      {
-        question: "What is the difference between a group and network?",
-        answer:
-          "A network is a collection of groups. A network can have as many groups. Not the other way around.",
-      },
-      {
-        question: "How does a user get access to any group or network?",
+        question: "How does a user get access to any network?",
         answer: "Admin of a group or network adds users and they get a notification.",
-      },
-      {
-        question: 'What are "Needs" on the landing page?',
-        answer:
-          "Every user mentions what they offer. That automatically gets placed as a collaboration opportunity. Also any need placed by any member of your group gets posted here.",
-      },
-      {
-        question:
-          'Please explain the "network" name & "see all" shown under needs?',
-        answer:
-          "The network name reflects the name of the network your group is part of and 'see all' implies that you could refer to all the needs posted on your group.",
-      },
-      {
-        question: 'What is "My content" on the landing page?',
-        answer:
-          "Articles from the internet on topics you may choose to read. Every time you refresh the page, the latest articles will keep being presented to you.",
-      },
-    ],
-  },
-  {
-    category: "Feedback",
-    items: [
-      {
-        question: "What is this feature?",
-        answer:
-          "Each screen has this icon which opens to its feedback section for the user to share on.",
-      },
-    ],
-  },
-  {
-    category: "Customers",
-    items: [
-      {
-        question: "What is this feature?",
-        answer:
-          "At onboarding and or on your profile you have the choice to list keywords of what product or service you offer. Whenever the platform receives a 'need' that matches the keywords of what you offer, you would be notified of the same here.",
       },
     ],
   },
@@ -155,7 +94,7 @@ export const FAQ_DATA = [
     ],
   },
   {
-    category: "Need",
+    category: "Problem",
     items: [
       {
         question: "How do I create a need?",
@@ -225,6 +164,47 @@ export const FAQ_DATA = [
         answer:
           "Under the settings on the landing page tap the icon and select the 'My responses to other's needs' option",
       },
+      {
+        question:
+          "What happens to the problem or introduction requirement I shared during onboarding?",
+        answer:
+          "The problem or introduction requirement you shared during onboarding is automatically posted in the State Your Problem section of your network, where relevant network members can view it and respond.",
+      },
+      {
+        question: "Who can view and respond to a problem posted in the network?",
+        answer:
+          "Only members of the respective network can view the problem posted in that network. Only those members can comment on the post and reply to comments. Members of other networks cannot view or respond to it.",
+      },
+      {
+        question: "Can I post a new professional problem or introduction requirement?",
+        answer:
+          "Yes. You can post a professional problem or introduction requirement in your network and seek relevant references, contacts, opportunities, or help from other network members.",
+      },
+      {
+        question: "Can I report a problem posted by another network member?",
+        answer:
+          "Yes. You can report a problem if you believe it contains inappropriate, offensive, misleading, irrelevant, or otherwise unsuitable content. Reports help the network administrators review the content and take appropriate action if required.",
+      },
+      {
+        question: "Can I reply to comments on my problem?",
+        answer:
+          "Yes. You can reply to comments and continue the conversation with other network members.",
+      },
+      {
+        question: "Where can I view all the problems I have posted?",
+        answer:
+          'You can view all your posted problems by selecting "View All My Problems" from the hamburger menu.',
+      },
+      {
+        question: "Can I edit the problem or introduction requirement once posted?",
+        answer:
+          "No. The problem or introduction requirement shared during onboarding or posted in state your problem section cannot be edited once posted.",
+      },
+      {
+        question: "Can I share a problem with someone outside the app?",
+        answer:
+          "No. Problems posted in the network cannot be shared with people outside the app through external apps or shareable links.",
+      },
     ],
   },
   {
@@ -283,22 +263,7 @@ export const FAQ_DATA = [
           "The cards represent a snapshot of the personalities, including – Awards they have won – Any groups / networks you are part of. Showcase your brand value with the network logo featured on your card. – Skills, Hobbies, Subjects of interest – Email, phone, address (if user has chosen to display. By default they are private and need to be 'displayed' by user if they wish others to access) – Social media links",
       },
       {
-        question: "What is the Blue Tick on profile?",
-        answer:
-          "We use www.sandbox to verify your name & phone number as on aadhaar. If the same matches, then you get an automatic blue tick against your name to add a layer of authenticity on your profile.",
-      },
-      {
-        question: "Why am I not receiving the OTP for Aadhaar verification, and how can I fix it?",
-        answer:
-          "You are requested to kindly – Ensure the correct aadhar number has been entered – Ensure this phone number linked to your addhaar – Ensure the correct OTP for the linked aadhar number has been entered – If you have locked your aadhar via the M aadhar app, then it would need to be unlocked.",
-      },
-      {
-        question: "Why can't I change my name after Aadhaar verification?",
-        answer:
-          "the Network is all about Authenticity. The platform thus once has confirmed your aadhar verified name, it cannot be undone.",
-      },
-      {
-        question: 'What is this section on "I can offer"?',
+        question: 'What is this section on "Lead/Offers"?',
         answer:
           "You should list keywords of products and services you can offer. By doing so, whenever the platform receives a 'need' that matches the keywords of what you offer, you would be notified of the same here.",
       },
@@ -312,33 +277,9 @@ export const FAQ_DATA = [
         answer: "User and or anyone could share the profile thru other platforms like text / whatsapp",
       },
       {
-        question: 'What is the "offerings gallery"?',
-        answer:
-          "You could create a product or service gallery listing details of what you offer.",
-      },
-      {
-        question: "Where can I see all my responses to others offerings?",
-        answer:
-          "Under the settings on the landing page tap the settings icon and select the 'My responses to other's offerings' option",
-      },
-      {
         question: "What are the Ratings on the profile?",
         answer:
           "Whenever a user visits any other profile for the first time, the user will be expected to mark these two questions. Over a period of time the repository of ratings will grow for each user to then know who is rating whom on ethical behaviour and or has met in person, thus adding authenticity.",
-      },
-      {
-        question: "What are Testimonials on the profile?",
-        answer:
-          "Long press any comment on your profile and you could convert that to a testimonial. Upon tapping, the request goes to the person who has commented for approval. When that user approves it, it automatically comes on your profile",
-      },
-      {
-        question: "What is My Super Power on the profile?",
-        answer:
-          "the Network is a lot about authenticity & personality and not being just a resume. These 4 questions are to us a reflectance of the users authentic personality if the user so chooses to answer it.",
-      },
-      {
-        question: "What is My bio on the profile?",
-        answer: "Some users may choose to fill in details about themselves and thus this is that.",
       },
       {
         question: "Can I control who sees my profile?",
@@ -353,7 +294,131 @@ export const FAQ_DATA = [
     ],
   },
   {
-    category: "Networks & Groups",
+    category: "Personal Details",
+    items: [
+      {
+        question: "What are Personal Details used for?",
+        answer:
+          "Personal Details allow you to provide information needed for event registration, such as spouse name, children's names, diet preference, and dietary restrictions.",
+      },
+      {
+        question: "Can other users see my personal details?",
+        answer:
+          "No. These details are collected only for event registration and are not visible to other users on the app.",
+      },
+    ],
+  },
+  {
+    category: "LMS",
+    items: [
+      {
+        question: "What can I access through the LMS?",
+        answer:
+          "You can access curated courses, track your learning progress, and earn certificates through the LMS portal.",
+      },
+      {
+        question: "How do I access the LMS?",
+        answer:
+          "Tapping the LMS option in events tab will redirect you to the LMS portal, where you can access your available courses and learning content.",
+      },
+    ],
+  },
+  {
+    category: "Edit Basic Details",
+    items: [
+      {
+        question: "Can I edit my basic profile details?",
+        answer:
+          "Yes. You can update basic details such as your profile picture, first name, last name, profession, industry, and company or business name.",
+      },
+      {
+        question: "What happens when I update my profile details?",
+        answer:
+          "Your updated information will be reflected in your profile and used across relevant features of the app.",
+      },
+    ],
+  },
+  {
+    category: "Find Your Partner",
+    items: [
+      {
+        question: 'What is the "Find Your Partner" section?',
+        answer:
+          "Find Your Partner helps you discover people who may be relevant to your partnership or collaboration needs. The profiles shown are based on information such as profession, skills, company, location, industry, and collaboration requirements.",
+      },
+      {
+        question: "How does the app recommend relevant partners?",
+        answer:
+          "The app uses AI-based smart matching to identify people who are most relevant to your collaboration needs and shows the top matches first.",
+      },
+      {
+        question: "What information is shown on a person's profile card?",
+        answer:
+          "Each profile card highlights their profession and designation, skills, company or enterprise information, and details about what they are looking for in a partnership or collaboration.",
+      },
+      {
+        question: "Can I search for a specific person?",
+        answer: "Yes. You can search for people by their name.",
+      },
+      {
+        question: "Can I filter people based on my collaboration needs?",
+        answer:
+          "Yes. You can apply filters such as network, skills, location, industry, profession, and gender to find people based on your specific requirements.",
+      },
+    ],
+  },
+  {
+    category: "Find Value",
+    items: [
+      {
+        question: 'What is the "Find Value" feature?',
+        answer:
+          "Find Value helps you understand how a particular person may be relevant to you based on their skills, company, and location.",
+      },
+      {
+        question: "What can I learn about a person through Find Value?",
+        answer:
+          "You can see the potential value a person may offer through their skillset, company or business, and location.",
+      },
+    ],
+  },
+  {
+    category: "Events",
+    items: [
+      {
+        question: "Where can I find upcoming network events?",
+        answer:
+          "All upcoming events associated with your network are available in the Events section.",
+      },
+      {
+        question: "What information can I view about an event?",
+        answer:
+          "You can view event details such as banner image, title, description, speaker's information, location, date, time, hotel information, transport information, and relevant attachments.",
+      },
+      {
+        question: "Who can I register for an event?",
+        answer:
+          "During registration, you can specify who will be attending, such as yourself, your spouse, children, or guests.",
+      },
+      {
+        question: "Will the event be added to my calendar after registration?",
+        answer:
+          "Yes. Once you register for an event, it can be added to your device's default calendar after you grant the required permission.",
+      },
+      {
+        question: "Can I add my travel details for an event?",
+        answer:
+          "Yes. You can add travel information such as your mode of transport, flight/train/bus number, travel date, ETA, insurance, visa details, and other remarks.",
+      },
+      {
+        question: "Can I see who else is attending an event?",
+        answer:
+          "Yes. Before an event, you can view the attendees and understand what they may be able to offer based on their skills, company, location, and other profile information.",
+      },
+    ],
+  },
+  {
+    category: "My Network",
     items: [
       {
         question: "Is there a difference between a network & a group?",
@@ -381,7 +446,7 @@ export const FAQ_DATA = [
           "No. Users can view group members of only those groups which they are part of. The members that can be viewed are those whose phone numbers and emails are listed by the admins, thus adding authenticity.",
       },
       {
-        question: "Can members message other members within a group or network?",
+        question: "Can members message other members within a network?",
         answer:
           "No. This is because the Network may allow group size to be in thousands or more. If anyone can message anyone, then it either leads to solicitations & invasion of privacy.",
       },
@@ -408,6 +473,44 @@ export const FAQ_DATA = [
           "How can I search for groups or networks that might interest me? Can I join it without being invited?",
         answer:
           "Users can only look for groups within a network the user is part of. Users cannot look for other networks and their groups that they are not part of.",
+      },
+      {
+        question: 'What can I see in the "My Networks" section?',
+        answer:
+          "You can view all the networks you are currently part of, along with their name and logo.",
+      },
+      {
+        question: "What can I view when I select a network?",
+        answer:
+          "You can open a network's profile to view its details, members, disclaimer, and network card.",
+      },
+      {
+        question: "What questions are asked when I visit a network profile?",
+        answer:
+          "When you visit a network profile, you may be asked whether the network provides a safe space for community engagement and activities and whether you are currently associated with the network to rate the network.",
+      },
+      {
+        question: "Can I share a network profile?",
+        answer: "Yes. You can share the network profile with others.",
+      },
+      {
+        question: "Can I view the members of a network?",
+        answer: "Yes. You can view the members associated with the selected network.",
+      },
+      {
+        question: "Can I view the network's disclaimer?",
+        answer:
+          "Yes. The network's disclaimer is available on its profile for you to review.",
+      },
+      {
+        question: "What information is displayed on a network card?",
+        answer:
+          "The network card displays key information such as the network name, logo, location, email address, phone number, address, and website or other web links.",
+      },
+      {
+        question: "Can I access the network's website or other web links?",
+        answer:
+          "Yes. If web links are provided on the network profile, you can access them directly from the network card.",
       },
     ],
   },
@@ -440,7 +543,7 @@ export const FAQ_DATA = [
           "Yes you could reactivate within 15 days and all data will be restored. If after 15 days, then a new account would need to be created.",
       },
       {
-        question: "What happens if I report a need/post / profile?",
+        question: "What happens if I report a problem / lead / profile?",
         answer:
           "It gets escalated to our support team that oversees all reporting. If the reporting is validated then we shall delete the same as early as possible.",
       },
