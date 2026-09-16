@@ -22,7 +22,7 @@ export default function Page() {
             Frequently asked questions
           </h1>
           <p className="text-sm leading-6 text-neutral-500 sm:text-base">
-            Everything about downloading, signing up, needs, networking,
+            Everything about downloading, signing up, problems, networking,
             profiles, security &amp; more.
           </p>
         </div>
