@@ -34,7 +34,7 @@ export default function Footer() {
           <p className="text-sm leading-6 text-neutral-400">
             Makes collaboration easy and seamless.
             <br />
-            Networks. Collaboration. Human first.
+            Networks. Collaboration. 
           </p>
         </div>
 

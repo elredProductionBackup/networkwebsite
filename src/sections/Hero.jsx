@@ -57,9 +57,7 @@ export default function Hero() {
             </a>
           </div>
 
-          <p className="text-xs font-medium text-neutral-500">
-            No cold DMs, ever.
-          </p>
+        
         </FadeIn>
 
         <FadeIn delay={0.15} className="flex justify-center lg:justify-center">
