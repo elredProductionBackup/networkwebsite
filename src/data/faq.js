@@ -13,15 +13,6 @@ export const FAQ_DATA = [
         answer:
           "https://elred.io/privacy-policy/ and https://elred.io/terms-of-use/",
       },
-      {
-        question: "What is this under see all?",
-        answer: "It lists all the groups that are part of your network.",
-      },
-      {
-        question: 'What is this section on "Lead/Offers"?',
-        answer:
-          "You should list keywords of products and services you can offer. By doing so, whenever the platform receives a 'need' that matches the keywords of what you offer, you would be notified of the same here.",
-      },
     ],
   },
   {
@@ -56,7 +47,7 @@ export const FAQ_DATA = [
         question:
           'What if my landing page is showing this text "We are in Beta testing phase"',
         answer:
-          "Currently we are beta testing only with the Awfis network. If you are part of awfis please contact your centre manager for access.",
+          "Currently we are beta testing only with the Privé network. If you are part of Privé Network please contact your centre manager for access.",
       },
     ],
   },
@@ -84,7 +75,7 @@ export const FAQ_DATA = [
       {
         question: "What is the notification?",
         answer:
-          "Notification for needs, offerings, testimonials approvals are displayed on this screen",
+          "Notifications received when you are added to a network are displayed on this screen.",
       },
       {
         question: "Some notifications are coming to me by WhatsApp. What are these?",
@@ -97,14 +88,14 @@ export const FAQ_DATA = [
     category: "Problem",
     items: [
       {
-        question: "How do I create a need?",
+        question: "How do I create a problem?",
         answer:
-          "Tap the Icon and place a need as easily as you do a google search. Fill in the optional portion if you so wish detailed responses. Share the need with one or more of your groups.",
+          "Tap the Icon and place a problem as easily as you do a google search. Fill in the optional portion if you so wish detailed responses. Share the problem with one or more of your groups.",
       },
       {
-        question: 'What is "optional" while creating needs?',
+        question: 'What is "optional" while creating problems?',
         answer:
-          "User could Add a note, Mention a specific location where the need is needed, Mention a price if any for the need, Attach a document or a photo linked to the need",
+          "User could Add a note, Mention a specific location where the problem is needed, Mention a price if any for the problem, Attach a document or a photo linked to the problem",
       },
       {
         question:
@@ -113,38 +104,38 @@ export const FAQ_DATA = [
           "This is because the responses that you will receive will be based on the need originally created. If that gets changed then the response may not be for what was the original ask.",
       },
       {
-        question: "Where does a need get posted?",
+        question: "Where does a problem get posted?",
         answer: "It has to be shared in at least 1 of your groups.",
       },
       {
-        question: "Does the need get shared in all groups or the ones I choose?",
+        question: "Does the problem get shared in all groups or the ones I choose?",
         answer: "Only those you choose.",
       },
       {
-        question: "Can users share/refer my needs to others?",
+        question: "Can users share/refer my problems to others?",
         answer:
-          "Yes they can forward your needs over whatsapp. In the next phase of features, we will roll out the option for 'non forwardable needs'. For now they are shareable over whatsapp. Forwarding a Need in the Network Groups is part of a future release.",
+          "Yes they can forward your problems over whatsapp. In the next phase of features, we will roll out the option for 'non forwardable problems'. For now they are shareable over whatsapp. Forwarding a Problem in the Network Groups is part of a future release.",
       },
       {
-        question: "Can I share a need outside of the Network?",
+        question: "Can I share a problem outside of the Network?",
         answer: "Yes on other messaging platforms such as whatsapp, telegram etc",
       },
       {
-        question: "How do I know if my need has been received/fulfilled?",
-        answer: "You will get responses to your needs that will come to you as a notification",
+        question: "How do I know if my problem has been received/fulfilled?",
+        answer: "You will get responses to your problems that will come to you as a notification",
       },
       {
-        question: "Where do I get the responses to my needs?",
+        question: "Where do I get the responses to my problems?",
         answer:
-          "They will come to you as a notification + within the settings is a section that lists all your needs and the responses to them are visible within each need.",
+          "They will come to you as a notification + within the settings is a section that lists all your problems and the responses to them are visible within each problem.",
       },
       {
-        question: "What are the web suggestions underneath the need I posted?",
+        question: "What are the web suggestions underneath the problem I posted?",
         answer:
-          "Other than 'trusted' responses that come from or thru your network, we also give you instant answers on your need from the cloud",
+          "Other than 'trusted' responses that come from or thru your network, we also give you instant answers on your problem from the cloud",
       },
       {
-        question: "Can I mark my need as urgent? Top priority? Can I pay for it?",
+        question: "Can I mark my problem as urgent? Top priority? Can I pay for it?",
         answer: "No",
       },
       {
@@ -154,9 +145,9 @@ export const FAQ_DATA = [
           "User privacy is paramount for us. As we are literally interconnecting everyone, we cannot have anyone start sending messages or call anyone.",
       },
       {
-        question: "Where can I view all the needs I have posted?",
+        question: "Where can I view all the problems I have posted?",
         answer:
-          "Under the settings on the landing page tap the icon and select the 'View all my needs' option",
+          "Under the settings on the landing page tap the icon and select the 'View all my problems' option",
       },
       {
         question:
@@ -213,7 +204,7 @@ export const FAQ_DATA = [
       {
         question: "I see many cards? What are these and who are these users?",
         answer:
-          "These are all the users on the platform. Yes, all. The cards represent a snapshot of their personalities, including display picture, name, title, location and – Awards they have won – Any groups that are common between you and user – Skills, Hobbies, Subjects of interest – Email, phone, address (if user has chosen to display. By default they are private and need to be 'displayed' by user if they wish others to access) – Social media links",
+          "These are all the users on the platform. Yes, all. The cards represent a snapshot of their personalities, including display picture, name, title, location and user – Hobbies, Subjects of interest – Email, phone, address (if user has chosen to display. By default they are private and need to be 'displayed' by user if they wish others to access) – Social media links",
       },
       {
         question:
@@ -228,7 +219,7 @@ export const FAQ_DATA = [
       },
       {
         question: "If a rating is given once to another, can it be changed?",
-        answer: "Yes. Under the settings on the landing page",
+        answer: "Yes. Under the settings on your profile page",
       },
       {
         question: "How does one reach out to those on the platform?",
@@ -260,12 +251,12 @@ export const FAQ_DATA = [
       {
         question: "What is this card showing on the profile?",
         answer:
-          "The cards represent a snapshot of the personalities, including – Awards they have won – Any groups / networks you are part of. Showcase your brand value with the network logo featured on your card. – Skills, Hobbies, Subjects of interest – Email, phone, address (if user has chosen to display. By default they are private and need to be 'displayed' by user if they wish others to access) – Social media links",
+          "The cards represent a snapshot of their personalities, including display picture, name, title, location and user – Hobbies, Subjects of interest – Email, phone, address (if user has chosen to display. By default they are private and need to be 'displayed' by user if they wish others to access) – Social media links",
       },
       {
         question: 'What is this section on "Lead/Offers"?',
         answer:
-          "You should list keywords of products and services you can offer. By doing so, whenever the platform receives a 'need' that matches the keywords of what you offer, you would be notified of the same here.",
+          "List the products and services you can offer. This allows you to discover what others offer when you visit their profiles, and helps them discover your offerings when they visit your profile.",
       },
       {
         question: "How do I change the appearance/layout of my card?",
@@ -421,60 +412,6 @@ export const FAQ_DATA = [
     category: "My Network",
     items: [
       {
-        question: "Is there a difference between a network & a group?",
-        answer:
-          "Yes. the Network primarily has networks. Each network will have a minimum of 1 group but could have as many groups within it. The admin of a network (referred as 'super admin') can assign admin right to group owners.",
-      },
-      {
-        question:
-          "What are the different admin rights of a Network admin (the super admin) and a group admin?",
-        answer:
-          "Only the network admin can make a group. Both network admin and group admin add, delete or manage members in a group. When an admin adds members in a group, they automatically become part of the network.",
-      },
-      {
-        question: "What is this?",
-        answer: "It lists all the members in the group.",
-      },
-      {
-        question: "Can members of one group join other groups?",
-        answer:
-          "Depends on the admin. Some groups could be restricted, for example a 'mumbai' member cannot join a 'delhi' group and vice versa if the admins so decide. However, for example the admin may keep interest groups like 'manufacturing' or 'tennis' open to all members of the network.",
-      },
-      {
-        question: "Can members of 1 group view members of other groups?",
-        answer:
-          "No. Users can view group members of only those groups which they are part of. The members that can be viewed are those whose phone numbers and emails are listed by the admins, thus adding authenticity.",
-      },
-      {
-        question: "Can members message other members within a network?",
-        answer:
-          "No. This is because the Network may allow group size to be in thousands or more. If anyone can message anyone, then it either leads to solicitations & invasion of privacy.",
-      },
-      {
-        question: "How do I join a group?",
-        answer:
-          "The admin of that group has to invite you. Only if your email, phone number as listed by you when you signed up for the Network, matches that used by the admin, do you then get access.",
-      },
-      {
-        question: "How do I create a network?",
-        answer: "For now we are restricting creation of networks, till the beta testing is done with.",
-      },
-      {
-        question: "Is there a limit to the amount of groups I can be a part of?",
-        answer: "No. You could be part of as many groups.",
-      },
-      {
-        question: "How do I prioritise my networks if I want them to be shown in a particular order?",
-        answer:
-          "The needs that you receive will be based on timestamp and for now you cannot 'pin / prioritise' a group.",
-      },
-      {
-        question:
-          "How can I search for groups or networks that might interest me? Can I join it without being invited?",
-        answer:
-          "Users can only look for groups within a network the user is part of. Users cannot look for other networks and their groups that they are not part of.",
-      },
-      {
         question: 'What can I see in the "My Networks" section?',
         answer:
           "You can view all the networks you are currently part of, along with their name and logo.",
@@ -555,7 +492,7 @@ export const FAQ_DATA = [
       {
         question: "What permissions does the app require, and why?",
         answer:
-          "We need permission for – Accessing your contacts/ phone book to showcase you of your network and access to possible collaboration / needs / responses. – Notifications to highlight needs, offerings, testimonials approvals – Accessing your gallery for you to upload the same on your display picture, profile, needs and responses.",
+          "We need the following permissions to provide you with a better experience: Contacts: To access your phonebook and show you users who are already in your contacts. Notifications: To notify you when you are added to a network. Gallery: To let you upload images for your display picture, profile, needs, and responses.",
       },
       {
         question:
