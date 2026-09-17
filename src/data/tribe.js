@@ -75,7 +75,7 @@ export const TRIBE_DATA = [
   {
     name: "Nandini",
     image: nandini,
-    role: "Project Coordinator",
+    role: "Project Manager",
     description: "Teams – Project Coordination",
     quote:
       "Never stop dreaming, never stop believing, never give up, never stop trying, and never stop learning. Believe in yourself and have faith in your abilities!",
