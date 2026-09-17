@@ -21,11 +21,11 @@ export default function UseCases() {
         </h2>
       </FadeIn>
 
-      <div className="grid w-full max-w-4xl grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      <div className="grid w-full max-w-2xl grid-cols-1 gap-4 sm:grid-cols-2">
         {USE_CASES.map(({ name, icon: Icon }, index) => (
           <FadeIn
             key={name}
-            delay={(index % 3) * 0.08}
+            delay={(index % 2) * 0.08}
             className="flex items-center gap-4 rounded-xl bg-white p-5 text-left"
           >
             <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-red-50">
