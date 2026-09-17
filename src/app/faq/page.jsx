@@ -4,6 +4,26 @@ import { useState } from "react";
 import { Plus, Minus } from "lucide-react";
 import { FAQ_DATA } from "@/data/faq";
 
+const URL_REGEX = /(https?:\/\/[^\s]+)/g;
+
+function renderAnswer(answer) {
+  return answer.split(URL_REGEX).map((part, i) =>
+    /^https?:\/\//.test(part) ? (
+      <a
+        key={i}
+        href={part}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-red-600 underline hover:text-red-700"
+      >
+        {part}
+      </a>
+    ) : (
+      part
+    )
+  );
+}
+
 export default function Page() {
   const [openKey, setOpenKey] = useState(null);
 
@@ -70,7 +90,7 @@ export default function Page() {
                         }`}
                       >
                         <p className="overflow-hidden text-sm leading-6 text-neutral-500">
-                          {item.answer}
+                          {renderAnswer(item.answer)}
                         </p>
                       </div>
                     </div>

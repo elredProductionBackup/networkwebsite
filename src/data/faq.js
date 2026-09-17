@@ -6,12 +6,12 @@ export const FAQ_DATA = [
       {
         question: "What do I do if my app glitches/ it faces a technical issue?",
         answer:
-          "The easiest way often is to simply log out and re sign-in the app. If that does not work, please email us at info@elred.io",
+          "The easiest way often is to simply log out and re sign-in the app. If that does not work, please email us at info@rextonedigital.com",
       },
       {
         question: "Where can I find the app's privacy policy and terms of use?",
         answer:
-          "https://elred.io/privacy-policy/ and https://elred.io/terms-of-use/",
+          "https://www.rextonedigital.com/privacy-policy and https://www.rextonedigital.com/terms-of-use",
       },
     ],
   },
@@ -20,7 +20,7 @@ export const FAQ_DATA = [
     items: [
       {
         question: "Is the app available both on IoS and Android?",
-        answer: "Yes. Please search for the Network",
+        answer: "Yes. Please search for theNetwork",
       },
     ],
   },
@@ -80,81 +80,13 @@ export const FAQ_DATA = [
       {
         question: "Some notifications are coming to me by WhatsApp. What are these?",
         answer:
-          "Leads / possible customers are sent to you over whatsapp. As this is a possible opportunity we share this on the Network as also over whatsapp. You could choose to put a stop to this by simply messaging 'stop' to such notifications.",
+          "Leads / possible customers are sent to you over whatsapp. As this is a possible opportunity we share this on theNetwork as also over whatsapp. You could choose to put a stop to this by simply messaging 'stop' to such notifications.",
       },
     ],
   },
   {
     category: "Problem",
     items: [
-      {
-        question: "How do I create a problem?",
-        answer:
-          "Tap the Icon and place a problem as easily as you do a google search. Fill in the optional portion if you so wish detailed responses. Share the problem with one or more of your groups.",
-      },
-      {
-        question: 'What is "optional" while creating problems?',
-        answer:
-          "User could Add a note, Mention a specific location where the problem is needed, Mention a price if any for the problem, Attach a document or a photo linked to the problem",
-      },
-      {
-        question:
-          'Why is there a pop up that says a "need" once created cannot be edited?',
-        answer:
-          "This is because the responses that you will receive will be based on the need originally created. If that gets changed then the response may not be for what was the original ask.",
-      },
-      {
-        question: "Where does a problem get posted?",
-        answer: "It has to be shared in at least 1 of your groups.",
-      },
-      {
-        question: "Does the problem get shared in all groups or the ones I choose?",
-        answer: "Only those you choose.",
-      },
-      {
-        question: "Can users share/refer my problems to others?",
-        answer:
-          "Yes they can forward your problems over whatsapp. In the next phase of features, we will roll out the option for 'non forwardable problems'. For now they are shareable over whatsapp. Forwarding a Problem in the Network Groups is part of a future release.",
-      },
-      {
-        question: "Can I share a problem outside of the Network?",
-        answer: "Yes on other messaging platforms such as whatsapp, telegram etc",
-      },
-      {
-        question: "How do I know if my problem has been received/fulfilled?",
-        answer: "You will get responses to your problems that will come to you as a notification",
-      },
-      {
-        question: "Where do I get the responses to my problems?",
-        answer:
-          "They will come to you as a notification + within the settings is a section that lists all your problems and the responses to them are visible within each problem.",
-      },
-      {
-        question: "What are the web suggestions underneath the problem I posted?",
-        answer:
-          "Other than 'trusted' responses that come from or thru your network, we also give you instant answers on your problem from the cloud",
-      },
-      {
-        question: "Can I mark my problem as urgent? Top priority? Can I pay for it?",
-        answer: "No",
-      },
-      {
-        question:
-          "Why is there only an option to respond to a need and why cannot I contact the user who has the need?",
-        answer:
-          "User privacy is paramount for us. As we are literally interconnecting everyone, we cannot have anyone start sending messages or call anyone.",
-      },
-      {
-        question: "Where can I view all the problems I have posted?",
-        answer:
-          "Under the settings on the landing page tap the icon and select the 'View all my problems' option",
-      },
-      {
-        question:
-          "Where can I view all the responses I may have given to the needs posted by other users?",
-        answer:
-          "Under the settings on the landing page tap the icon and select the 'My responses to other's needs' option",
-      },
       {
         question:
           "What happens to the problem or introduction requirement I shared during onboarding?",
@@ -261,7 +193,7 @@ export const FAQ_DATA = [
       {
         question: "How do I change the appearance/layout of my card?",
         answer:
-          "You could choose any of the designs we offer and or upload a picture from your camera / phone gallery. We believe that a profile on the Network is a reflectance of your personality and is your on-the-go personal website and that you could personalise it to your taste.",
+          "You could choose any of the designs we offer and or upload a picture from your camera / phone gallery. We believe that a profile on theNetwork is a reflectance of your personality and is your on-the-go personal website and that you could personalise it to your taste.",
       },
       {
         question: "What is the share icon?",
@@ -275,7 +207,7 @@ export const FAQ_DATA = [
       {
         question: "Can I control who sees my profile?",
         answer:
-          "No. It can be viewed by those on the Network as also those not. Thus do choose to share what you think would be public information.",
+          "No. It can be viewed by those on theNetwork as also those not. Thus do choose to share what you think would be public information.",
       },
       {
         question: "Can I link social media/other socials to my account or profile?",
@@ -456,7 +388,7 @@ export const FAQ_DATA = [
     items: [
       {
         question:
-          "How secure is the Network? What do you do with my personal information? Does my personal information get shared? Does the Network share/sell my user data? Who gets access to my phone number and email?",
+          "How secure is theNetwork? What do you do with my personal information? Does my personal information get shared? Does theNetwork share/sell my user data? Who gets access to my phone number and email?",
         answer:
           "Kindly review https://elred.io/wp-content/uploads/2024/08/elRed_Security_Doc.pdf",
       },
@@ -487,7 +419,7 @@ export const FAQ_DATA = [
       {
         question: "What should I do if I suspect unauthorized access to my account?",
         answer:
-          "Please write to us on info@elred.io with a subject that says 'unauthorized access to my account' and a screenshot of your profile.",
+          "Please write to us on info@rextonedigital.com with a subject that says 'unauthorized access to my account' and a screenshot of your profile.",
       },
       {
         question: "What permissions does the app require, and why?",
@@ -497,7 +429,7 @@ export const FAQ_DATA = [
       {
         question:
           "What are the steps to recover my account if I lost access to my email and phone number?",
-        answer: "Write to us at info@elred.io",
+        answer: "Write to us at info@rextonedigital.com",
       },
     ],
   },
