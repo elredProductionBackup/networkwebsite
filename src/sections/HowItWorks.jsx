@@ -38,9 +38,7 @@ export default function HowItWorks() {
   return (
     <section className="flex min-h-[500px] w-full flex-col items-center justify-center gap-10 bg-white px-6 py-20 sm:px-10 lg:px-16">
       <FadeIn className="flex flex-col items-center gap-3 text-center">
-        <span className="text-xs font-bold tracking-wider text-red-600">
-          HOW IT WORKS
-        </span>
+        
         <h2 className="text-3xl font-bold tracking-tight text-black sm:text-4xl">
          Built to unlock the full potential of your network
         </h2>

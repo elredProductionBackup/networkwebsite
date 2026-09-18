@@ -26,9 +26,7 @@ export default function TrustInfrastructure() {
     <section className="flex min-h-[500px] w-full items-center bg-white px-6 py-20 sm:px-10 lg:px-16">
       <div className="mx-auto flex w-full max-w-6xl flex-col gap-12">
         <FadeIn className="flex flex-col items-center gap-3 text-center">
-          <span className="text-xs font-bold tracking-wider text-red-600">
-            WHY IT&apos;S DIFFERENT
-          </span>
+          
           <h2 className="text-3xl font-extrabold tracking-tight text-black sm:text-4xl md:text-5xl">
             Built around real relationships
           </h2>
