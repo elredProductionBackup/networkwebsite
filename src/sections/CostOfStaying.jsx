@@ -7,10 +7,10 @@ export default function CostOfStaying() {
 
       <FadeIn className="relative mx-auto flex max-w-2xl flex-col items-center gap-5">
         <h2 className="text-3xl font-bold leading-tight tracking-tight text-black sm:text-4xl md:text-5xl">
-         There’s value in your network you haven’t discovered yet.
+         There is value in your network you have not discovered yet.
         </h2>
         <p className="text-sm leading-6 text-neutral-500 sm:text-base">
-          Somewhere in your network, someone is looking for exactly what you offer today. Another can open a door you’ve been knocking on for months. Cut through the noise and turn relevant access into meaningful collaboration.
+          Somewhere in your network, someone is looking for exactly what you offer today. Another can open a door you have been knocking on for months. Cut through the noise and turn relevant access into meaningful collaboration.
         </p>
       </FadeIn>
     </section>
